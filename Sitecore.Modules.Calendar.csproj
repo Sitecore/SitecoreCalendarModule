@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{49C7DA8B-73BB-45F1-B575-6631402A0DFE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Sitecore.Modules.EventCalendar</RootNamespace>
+    <AssemblyName>Sitecore.Calendar</AssemblyName>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>3.5</OldToolsVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>
+    </DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sc650rev121009\Website\bin\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Client">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sc650rev121009\Website\bin\Sitecore.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Kernel">
+      <HintPath>..\..\..\..\..\inetpub\wwwroot\sc650rev121009\Website\bin\Sitecore.Kernel.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions.Design, Version=3.5.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq, Version=3.5.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CalendarScriptModule.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\AddInstall.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\CalendarIDs.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\CreateItem.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\DemoItems.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\EventDetails.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\Open.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Configuration\ResourcesManager.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\BranchMapping.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\CalendarLayoutManager.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Controls\CalendarPopup.aspx.cs">
+      <DependentUpon>CalendarPopup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Controls\CalendarPopup.aspx.designer.cs">
+      <DependentUpon>CalendarPopup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\Dialogs\AlertMessage.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\Dialogs\ClientDialogs.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\Dialogs\PipelineMessage.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Forms\Dialogs\YesNoCancelMessage.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\DaysOfWeek.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\DisplayEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\EventsListOverflow.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\EventsOrder.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\LinkBehaviour.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\Month.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\Recurrence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\Sequence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\StartDateOption.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\ViewCommand.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Enum\ViewModeOption.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Exceptions\EventCalendarException.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Handlers\EventItemHander.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\CalendarActions.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\CreateEventPath.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\CreateEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\CreateSchedule.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Delete\DeleteSchedule.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Delete\DeleteEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Delete\DeleteEventContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Delete\DeleteScheduleContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\EventCommand.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\EventCommandContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\Recurrence\MonthyRecurrence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\Recurrence\WeeklyRecurrence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\Recurrence\YearlyRecurrence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Move\MoveEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Move\MoveEventContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Move\MoveEventTime.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Move\MoveEventTimeContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Sync\SyncEventContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Sync\SyncEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Update\UpdateEvent.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Update\UpdateCommandContext.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\EventList.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\EventListManager.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Event.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\IComparerEventsByStartTime.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Commands\Create\Recurrence\DailyRecurrence.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Objects\Schedule.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\CalendarWebControl.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\LazyMiniCalendar.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\PageExtensions.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\AjaxManager.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\HtmlParserUtil.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\PublishUtil.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\VirtualPreviewUtil.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Remote\RemoteActionWrapper.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Remote\RemoteSettings.cs" />
+    <Compile Include="sitecore modules\web\sitecore.calendar\Logic\Services\CalendarService.asmx.cs">
+      <DependentUpon>CalendarService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sitecore modules\web\sitecore.calendar\Logic\Services\WebService.asmx.cs">
+      <DependentUpon>WebService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\System\SecurityManager.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\System\SitecoreDatabase.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\AjaxControl.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\CalendarProgressBar.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\CalendarSelector.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\BasePicker.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\DateSelector.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\BaseView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\MiniCalendar.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Calendar.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\ExtendBaseView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\DayView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\ICalendarView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\AgendaView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\MonthView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\UI\Views\WeekView.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\AgendaViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\CalendarSelectorSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\DateSelectorSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\ExtendStandartViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\DayViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\MiniCalendarSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\ModuleSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\MonthViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\Options.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\ProgressBarSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\StandardText.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\StaticSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\StandardViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\Utilities.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Logic\Utils\WeekViewSettings.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Shell\Controls\ControlsTreeList.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Shell\Controls\Edit.cs" />
+    <Compile Include="sitecore modules\shell\sitecore.calendar\Shell\Controls\Helper\SettingsRendering.cs" />
+    <Compile Include="Web References\Network\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="sitecore modules\shell\sitecore.calendar\Controls\CalendarPopup.aspx" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Controls\ConfirmEx.aspx">
+      <SubType>ASPXCodeBehind</SubType>
+    </Content>
+    <Content Include="sitecore modules\shell\sitecore.calendar\Controls\EventWizard.ascx" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\blank.gif" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\bullet_ball_glass_blue.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\bullet_ball_glass_gray.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\bullet_ball_glass_green.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\bullet_ball_glass_red.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\bullet_ball_glass_yellow.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\Calendar.bmp" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\calendar.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\indicator.gif" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\No9x9.gif" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\refresh.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Images\users4.png" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\ConfirmEx.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Init.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\LoadScripts.js" />
+    <Content Include="sitecore modules\web\sitecore.calendar\Logic\Services\CalendarService.asmx" />
+    <Content Include="sitecore modules\web\sitecore.calendar\Logic\Services\WebService.asmx" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\CalendarEvent.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\EventPopups.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\DateUtils.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Managers\DayManager.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Managers\MonthManager.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Managers\WeekManager.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\pngbehavior.htc" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Proxy.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Utils.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\Validator.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Scripts\ViewMode.js" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Black\Black.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Blue\Blue.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Brown\Brown.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Burgundy\Burgundy.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Calendar.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Colors.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Custom\Custom.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Gray\Gray.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Green\Green.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Pink\Pink.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Red\Red.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Violet\Violet.css" />
+    <Content Include="sitecore modules\shell\sitecore.calendar\Themes\Yellow\Yellow.css" />
+    <Content Include="sitecore\shell\Controls\modules\Sitecore.EventCalendar\Calendar.ConfigureControls.xml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\Network\CalendarService.disco" />
+    <None Include="Web References\Network\CalendarService.wsdl" />
+    <None Include="Web References\Network\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="sitecore\shell\VirtualPreviewCalendar.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <SubType>Designer</SubType>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://localhost/sitecore%2520modules/web/sitecore.calendar/Logic/Services/CalendarService.asmx">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\Network\</RelPath>
+      <UpdateFromURL>http://localhost/sitecore%2520modules/web/sitecore.calendar/Logic/Services/CalendarService.asmx</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
+      <CachedSettingsPropName>Sitecore_Calendar_CalendarService_CalendarService</CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="layouts\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>False</AutoAssignPort>
+          <DevelopmentServerPort>4688</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <PropertyGroup>
+    <PostBuildEvent>
+    </PostBuildEvent>
+    <PreBuildEvent>
+    </PreBuildEvent>
+  </PropertyGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+</Project>

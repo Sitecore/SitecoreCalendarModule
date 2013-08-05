@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Sitecore.Modules.EventCalendar.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Sitecore_Calendar_CalendarService_CalendarService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost/sitecore%20modules/web/sitecore.calendar/logic/services/calendarservice.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,52 @@
+<public:component>
+<public:attach event="onpropertychange" onevent="propertyChanged()" />
+<script>
+
+/* Copyright: Erik Arvidsson & Emil A Eklund. 
+   http://webfx.eae.net/license.html */
+
+
+var supported = /MSIE (5\.5)|[6789]/.test(navigator.userAgent) && navigator.platform == "Win32";
+var realSrc;
+var blankSrc = "/sitecore modules/shell/sitecore.calendar/images/blank.gif";
+
+if (supported) fixImage();
+
+function propertyChanged() {
+   if (!supported) return;
+
+   var pName = event.propertyName;
+   if (pName != "src") return;
+
+   if ( ! new RegExp(blankSrc).test(src))
+      fixImage();
+};
+
+function fixImage() {
+
+   var src = element.src;
+
+   if (src == realSrc) {
+      element.src = blankSrc;
+      return;
+   }
+
+   if ( ! new RegExp(blankSrc).test(src)) {
+      realSrc = src;
+   }
+
+   if ( /\.png$/.test( realSrc.toLowerCase() ) ) {
+
+      element.src = blankSrc;
+
+      element.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='" +
+                                     src + "',sizingMethod='scale')";
+   }
+   else {
+
+      //element.runtimeStyle.filter = "";
+   }
+}
+
+</script>
+</public:component>

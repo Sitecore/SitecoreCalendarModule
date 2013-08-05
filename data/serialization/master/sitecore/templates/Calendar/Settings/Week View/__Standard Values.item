@@ -1,0 +1,161 @@
+----item----
+version: 1
+id: {471F421A-F11A-4BE1-9555-10F735DB78E2}
+database: master
+path: /sitecore/templates/Calendar/Settings/Week View/__Standard Values
+parent: {14EA21D0-7675-4EB8-AE56-99EEFC99724D}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {14EA21D0-7675-4EB8-AE56-99EEFC99724D}
+templatekey: Week View
+
+----field----
+field: {6508A5FB-9BB0-498A-ACEC-E3087C8853BD}
+name: Show Header
+key: show header
+content-length: 1
+
+1
+----field----
+field: {93702B2C-E745-48E3-92B1-48D3B3B7283C}
+name: Margin
+key: margin
+content-length: 3
+
+8px
+----field----
+field: {39012E14-95BA-4B49-BE74-1BB2CBD50049}
+name: Number of Hours Displayed
+key: number of hours displayed
+content-length: 2
+
+10
+----field----
+field: {39529761-8F56-44EA-AEC1-C91D9F195B80}
+name: Start Hour
+key: start hour
+content-length: 1
+
+8
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: 
+version: 1
+revision: 28b8e71a-e215-4bb8-a23d-b38a85c29b86
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 34
+
+20080611T111653:633487798132187500
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+28b8e71a-e215-4bb8-a23d-b38a85c29b86
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111653:633487798132187500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 8c7218f5-5251-4bb5-9d92-b5de6f4cc371
+
+----field----
+field: {569DD5C7-956A-4814-9318-E647FD14EFF6}
+name: Recurrent Event Prefix
+key: recurrent event prefix
+content-length: 3
+
+[R]
+----field----
+field: {0FEAE3C3-4BC8-48D3-B4AF-53997DB8AC01}
+name: Header Format
+key: header format
+content-length: 16
+
+ddd, MMM d, yyyy
+----field----
+field: {1D8211E5-BDD6-4D51-90C7-2A57E3B5BC85}
+name: Event Master
+key: event master
+content-length: 147
+
+<link linktype="internal" url="/sitecore/templates/Branches/Calendar/Event" querystring="" target="" id="{9D792745-B9F3-480B-B84D-BFDAB341C5B2}" />
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070724T164138
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+8c7218f5-5251-4bb5-9d92-b5de6f4cc371
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T153326:633487952067968750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+

@@ -1,0 +1,105 @@
+----item----
+version: 1
+id: {E5928DAB-BCA7-4240-8134-2FFE8C0A02DA}
+database: master
+path: /sitecore/templates/Branches/Calendar/Event List
+parent: {7E0044F3-3B91-4635-9B0E-8100941ED268}
+name: Event List
+master: {00000000-0000-0000-0000-000000000000}
+template: {35E75C72-4985-4E09-88C3-0EAC6CD1E64F}
+templatekey: Branch
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 37
+
+software/16x16/elements_selection.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1000
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{42C09E1D-7F03-45FC-9D79-19C468235D59}
+----version----
+language: 
+version: 1
+revision: a7303087-64be-48c9-bb61-03d889e012a8
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T111657
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+a7303087-64be-48c9-bb61-03d889e012a8
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111657:633487798171250000
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: b753d544-2be4-4580-ad51-7626625d8fbf
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070726T105258
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+b753d544-2be4-4580-ad51-7626625d8fbf
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T165714:633488002342196330
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

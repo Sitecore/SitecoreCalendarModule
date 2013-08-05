@@ -1,0 +1,98 @@
+----item----
+version: 1
+id: {EC56B841-0385-4FF7-88D7-97F5A6455EE4}
+database: master
+path: /sitecore/templates/Branches/Calendar/Mini Calendar Settings
+parent: {7E0044F3-3B91-4635-9B0E-8100941ED268}
+name: Mini Calendar Settings
+master: {00000000-0000-0000-0000-000000000000}
+template: {35E75C72-4985-4E09-88C3-0EAC6CD1E64F}
+templatekey: Branch
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 28
+
+business/16x16/date-time.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 4
+
+1100
+----version----
+language: 
+version: 1
+revision: 24b563cf-84bb-4961-b1f5-04b91bbfa405
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T111657
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+24b563cf-84bb-4961-b1f5-04b91bbfa405
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111657:633487798175781250
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: aa733dc8-1bb8-47ba-83e9-4ce23b22997d
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070726T105151
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+aa733dc8-1bb8-47ba-83e9-4ce23b22997d
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T165901:633488003410633830
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

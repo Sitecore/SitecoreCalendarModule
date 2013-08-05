@@ -1,0 +1,84 @@
+----item----
+version: 1
+id: {4891A98B-AD78-4076-88B4-651C81BFB262}
+database: master
+path: /sitecore/system/Modules/Calendar/Settings/Default Week View
+parent: {DA5662CC-1D7E-4E2E-9985-09F5B2DCE4C1}
+name: Default Week View
+master: {78194755-CCFD-41E3-BBC6-737D72141F2E}
+template: {14EA21D0-7675-4EB8-AE56-99EEFC99724D}
+templatekey: Week View
+
+----field----
+field: {BC9020D8-144D-4056-863C-D34954F4E99E}
+name: Show All
+key: show all
+content-length: 1
+
+1
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----version----
+language: 
+version: 1
+revision: d3b5f2d4-d849-4fa7-b70f-81fdcadb2013
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T111709
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+d3b5f2d4-d849-4fa7-b70f-81fdcadb2013
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111709:633487798294687500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 815437a6-059d-4386-82c9-3a89d4a537ae
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20071115T122857
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+815437a6-059d-4386-82c9-3a89d4a537ae
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20071115T122857

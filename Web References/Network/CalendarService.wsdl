@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="MoveEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="eventID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="newDate" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:Credentials" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="Credentials">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="CustomData" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MoveEventResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="UpdateTime">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="eventID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="startTime" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="endTime" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="updateSeries" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:Credentials" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateTimeResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="CreateEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="evtXml" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scheduleXml" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optionsXml" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:Credentials" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CreateEventResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="DeleteEvent">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="eventID" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="deleteSeries" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:Credentials" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DeleteEventResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="SaveEventInfo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="evtXml" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="scheduleXml" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="optionsXml" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="updateSeries" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="credentials" type="tns:Credentials" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="SaveEventInfoResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MoveEventSoapIn">
+    <wsdl:part name="parameters" element="tns:MoveEvent" />
+  </wsdl:message>
+  <wsdl:message name="MoveEventSoapOut">
+    <wsdl:part name="parameters" element="tns:MoveEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTimeSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateTime" />
+  </wsdl:message>
+  <wsdl:message name="UpdateTimeSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateTimeResponse" />
+  </wsdl:message>
+  <wsdl:message name="CreateEventSoapIn">
+    <wsdl:part name="parameters" element="tns:CreateEvent" />
+  </wsdl:message>
+  <wsdl:message name="CreateEventSoapOut">
+    <wsdl:part name="parameters" element="tns:CreateEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="DeleteEventSoapIn">
+    <wsdl:part name="parameters" element="tns:DeleteEvent" />
+  </wsdl:message>
+  <wsdl:message name="DeleteEventSoapOut">
+    <wsdl:part name="parameters" element="tns:DeleteEventResponse" />
+  </wsdl:message>
+  <wsdl:message name="SaveEventInfoSoapIn">
+    <wsdl:part name="parameters" element="tns:SaveEventInfo" />
+  </wsdl:message>
+  <wsdl:message name="SaveEventInfoSoapOut">
+    <wsdl:part name="parameters" element="tns:SaveEventInfoResponse" />
+  </wsdl:message>
+  <wsdl:portType name="CalendarServiceSoap">
+    <wsdl:operation name="MoveEvent">
+      <wsdl:input message="tns:MoveEventSoapIn" />
+      <wsdl:output message="tns:MoveEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTime">
+      <wsdl:input message="tns:UpdateTimeSoapIn" />
+      <wsdl:output message="tns:UpdateTimeSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateEvent">
+      <wsdl:input message="tns:CreateEventSoapIn" />
+      <wsdl:output message="tns:CreateEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEvent">
+      <wsdl:input message="tns:DeleteEventSoapIn" />
+      <wsdl:output message="tns:DeleteEventSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="SaveEventInfo">
+      <wsdl:input message="tns:SaveEventInfoSoapIn" />
+      <wsdl:output message="tns:SaveEventInfoSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="CalendarServiceSoap" type="tns:CalendarServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MoveEvent">
+      <soap:operation soapAction="http://tempuri.org/MoveEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTime">
+      <soap:operation soapAction="http://tempuri.org/UpdateTime" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateEvent">
+      <soap:operation soapAction="http://tempuri.org/CreateEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEvent">
+      <soap:operation soapAction="http://tempuri.org/DeleteEvent" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveEventInfo">
+      <soap:operation soapAction="http://tempuri.org/SaveEventInfo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="CalendarServiceSoap12" type="tns:CalendarServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MoveEvent">
+      <soap12:operation soapAction="http://tempuri.org/MoveEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateTime">
+      <soap12:operation soapAction="http://tempuri.org/UpdateTime" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CreateEvent">
+      <soap12:operation soapAction="http://tempuri.org/CreateEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteEvent">
+      <soap12:operation soapAction="http://tempuri.org/DeleteEvent" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="SaveEventInfo">
+      <soap12:operation soapAction="http://tempuri.org/SaveEventInfo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="CalendarService">
+    <wsdl:port name="CalendarServiceSoap" binding="tns:CalendarServiceSoap">
+      <soap:address location="http://localhost/sitecore%20modules/web/sitecore.calendar/logic/services/calendarservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="CalendarServiceSoap12" binding="tns:CalendarServiceSoap12">
+      <soap12:address location="http://localhost/sitecore%20modules/web/sitecore.calendar/logic/services/calendarservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

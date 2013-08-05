@@ -1,0 +1,407 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Calendar Update</PackageName>
+      <Author>Sitecore Corporation</Author>
+      <Version>2.2.0 rev. 100907</Version>
+      <Revision />
+      <License>&lt;div class="WordSection1"&gt;
+
+&lt;p class="Default" align="center" style="margin-bottom:10.0pt;text-align:center"&gt;&lt;b&gt;&lt;span style="font-size:11.5pt"&gt;Sitecore License Agreement&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;LICENSEE’S USE OF THE SITECORE SOFTWARE IS SUBJECT TO
+LICENSEE’S FULL ACCEPTANCE OF THE TERMS, CONDITIONS, DISCLAIMERS AND LICENSE
+RESTRICTIONS SET FORTH IN THIS AGREEMENT. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal"&gt;&lt;b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt;1. &lt;u&gt;License Grant&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;: Upon payment in
+full of the license fee, Licensor grants Licensee a non-exclusive, perpetual,
+non-transferable, non-assignable, non-sublicensable license, without time
+limitations, to use the Sitecore Software, in object code form only&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;
+exclusively for management of Licensee’s own current and future web
+infrastructure&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;,
+subject to the terms and conditions set forth in this License Agreement.&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; Except as
+expressly authorized by this Agreement, “Licensee” as used herein does not
+include any other entity or person, including any present or future subsidiary
+or affiliate of Licensee, or any entity or person owning any interest in
+Licensee at present or in the future.&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:
+10.0pt;font-family:" arial","sans-serif""=""&gt; “Sitecore Software” means the
+software that is licensed by Licensor in this Agreement, and any future
+Upgrades and Patches, as those terms are defined in Section 6 of this
+Agreement, that the Licensee may receive in accordance with the terms of the
+Agreement. &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; &lt;/span&gt;&lt;span style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.1
+License Key&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: Licensee will be
+provided a License Key that gives Licensee access to the Sitecore Software. The
+Sitecore Software may be used only on the equipment with the features and
+limitations specified in the License Key. The License Key shall be time-limited
+until full payment of the license fee has been received by Licensor. The
+License Key may limit the number of Servers on which the Sitecore Software may
+be installed. For purposes of this Agreement, one Server is defined as one
+installation and / or application instance on a physical or virtual Server with
+a processing power for the web process equivalent to at most eight CPU cores.
+For example, one physical Server may contain eight single core CPUs, four dual
+core CPUs, two quad core CPUs or one eight core CPU. A Server with three or
+four quad core CPUs would therefore count as two Servers.&lt;/span&gt;&lt;b&gt; &lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;A virtual server will be counted as the number of
+physical cores allocated or processor core equivalents allocated to the virtual
+server.&amp;nbsp; For example, one virtual server with two physical processor cores
+allocated, or with the equivalent of two simulated processor cores allocated,
+would be counted as the equivalent of one physical dual-core processor server.&lt;/span&gt;&lt;span style="font-size:10.0pt"&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.2
+Intellectual Property Rights&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;:
+Ownership of the Sitecore Software, and all worldwide rights, title and
+interest in and to the Intellectual Property associated with the Sitecore Software
+shall remain solely and exclusively with Licensor or with third parties that license
+modules included with the Sitecore Software. Licensee shall retain intact all
+applicable Licensor copyright, patent and/or trademark notices on and in all
+copies of the Sitecore Software. All rights, title, and interest in Sitecore
+Software not expressly granted to Licensee in this Agreement are reserved by
+Licensor. “Intellectual Property” as used in this Agreement means any and all
+patents, copyrights, trademarks, service marks and trade names (registered and
+unregistered), trade secrets, know-how, inventions, licenses and all other
+proprietary rights throughout the world related to the authorship, origin,
+design, utility, process, manufacture, programming, functionality and operation
+of Sitecore Software and its Derivative Works, any product containing any
+components of the Sitecore Software, all documentation (electronically stored
+or otherwise), including manuals and marketing materials, regarding the
+Sitecore Software, and any Confidential Information associated with the
+Sitecore Software. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.3
+Confidential Information: &lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;“Confidential
+Information” as used in this Agreement means any information, whether tangible
+or intangible, including, but not limited to, techniques, discoveries,
+inventions, ideas, processes, software (in source or object code form),
+designs, technology, technical specifications, flow charts, procedures,
+formulas, concepts, financial data and business and marketing plans maintained
+in confidence by Licensor, including confidential or proprietary information of
+third parties that Licensor has been authorized to receive. Confidential
+Information does not include information that (a) is now, or hereafter becomes,
+through no act or failure to act on the part of Licensee, generally known or
+available to the public; (b) was rightfully in Licensee’s possession prior to
+disclosure by Licensor; (c) is developed independently by Licensee without
+unauthorized use of or reference to any of Licensor’s Confidential Information;
+or (d) is approved by Licensor for disclosure without restriction, in a written
+document executed by a duly authorized officer of Licensor. Licensee shall not
+disclose any Confidential Information associated with the Sitecore Software. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.4
+Restrictions on Use&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: Except as
+expressly authorized by Licensor in writing, Licensee shall not (a) copy, in
+whole or in part, the Sitecore Software or documentation; (b) modify,
+disassemble, decompress, reverse compile, reverse assemble, reverse engineer,
+or translate any portion of the Sitecore Software; (c) rent, lease, lend,
+distribute, sell, assign, license, or otherwise transfer the Sitecore Software;
+or (d) create Derivative Works of the Sitecore Software.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.5  Derivative
+Works: &lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;“Derivative Works” as used
+herein means any software program (whether in source code or object code), and
+all copies thereof, developed by or on behalf of Licensee based on or derived
+from any part of the Sitecore Software, including without limitation any
+revision, modification, enhancement, translation (including compilation or
+recapitulation by computer), abridgment, condensation, expansion, or any other
+form in which the Sitecore Software may be recast, transformed or adapted, and
+that, if prepared without Licensor's authorization, would constitute a patent,
+copyright or trade secret infringement of the Sitecore Software, or would
+otherwise constitute an unauthorized use of Licensor’s Confidential
+information. In the event any such Derivative Works are created, Licensor shall
+own all right, title, and interest in and to such Derivative Works. If, under
+the operation of local law or otherwise, Licensee or such third party comes to
+have any rights associated with such Derivative Works, Licensee hereby and
+shall automatically assign all such rights to Licensor for no additional
+consideration. For avoidance of doubt, Licensor shall claim no intellectual
+property interest or legal interest of any kind in any code created by Licensee
+to facilitate its authorized use of the Sitecore Software so long as the
+creation of such code does not constitute a Derivative Work or violate any other
+provision of this Agreement. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.6
+Third Party Use and Rights: &lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;Licensee
+may authorize third parties to assist Licensee in the management, editing, and
+hosting of web based content created by use of the Sitecore Software, provided
+that: (1) such activities are within the scope of the activities Licensee is
+itself authorized to perform under this Agreement; (2) such third party’s acts
+are primarily for the direct or indirect benefit of Licensee; and (3) such
+third parties are not charged a fee by Licensee for such activities. Licensee
+is prohibited from using the Sitecore Software as an Application Software
+Provider, or in any time-sharing or other commercial arrangement of any kind
+that makes the Sitecore Software available to third parties primarily for the
+third party’s own uses. Except as expressly stated in this Agreement, no third
+party has any rights under this Agreement. Licensee is fully liable to the
+extent allowed by law for any unauthorized use of the Sitecore Software by
+third parties caused by any acts or omissions of Licensee. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;1.7
+Transmission of Limited Licensee Data&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;:
+The Sitecore Software periodically transmits the following information to a
+server maintained by Licensor: License Key ID, licensee name, hostname
+(Licensee’s website URL), host IP, and directory installation path. This
+information is used by Licensor to send periodic communications to Licensee
+relevant to use of the Sitecore Software, and to verify that the Sitecore
+Software is being used in authorized locations only. Licensee expressly
+consents to the transmission of such information. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;2. &lt;u&gt;Limited Warranties&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:22.5pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;2.1
+Licensor’s Limited Warranty&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: Licensor
+expressly warrants that the Sitecore Software provided to Licensee will work
+for a period of ninety (90) days following the effective date of this Agreement
+according to &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt"&gt;the then current functional,
+operational, and/or performance capabilities of the Sitecore Software&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt"&gt; &lt;/span&gt;&lt;span style="font-size:10.0pt"&gt;as
+set forth in the Sitecore Developer Network. In the event any such Sitecore
+Software does not operate according to these capabilities during this Limited
+Warranty Period, Licensor shall repair or replace the Sitecore Software and
+such repair or replacement shall be Licensee’s sole and exclusive remedy.  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:22.5pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;2.2&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt; &lt;b&gt;&lt;span lang="EN-GB"&gt;Virus/Malicious Code Warranty&lt;/span&gt;&lt;/b&gt;&lt;span lang="EN-GB"&gt;: Licensor and Licensee warrant that they will use commercially
+reasonable virus and malicious code detection software programs to test the Sitecore
+Software licensed hereunder for viruses and malicious code prior to any delivery
+or installation and that the parties will continue to take such steps with
+respect to any software delivered pursuant to this Agreement. In the event either
+party detects any computer virus or malicious code it shall immediately notify the
+other party and Licensor shall promptly provide revised replacement software in
+the event any such computer virus or malicious code is detected.&lt;/span&gt;&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt"&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;3. &lt;u&gt;DISCLAIMER OF WARRANTIES&lt;/u&gt;: EXCEPT AS
+EXPRESSLY SET FORTH IN SECTION 2 ABOVE, THE SITECORE SOFTWARE AND THE
+ASSOCIATED DOCUMENTATION ARE SUPPLIED TO LICENSEE &amp;quot;AS IS.” LICENSOR
+(DEFINED IN THIS SECTION AS LICENSOR’S PARENT, AFFILIATES, SUBSIDIARIES,
+DISTRIBUTORS AND THEIR RESPECTIVE OFFICERS, DIRECTORS AND EMPLOYEES) MAKES NO WARRANTY,
+EXPRESS OR IMPLIED, AS TO THE SITECORE SOFTWARE, SITECORE APPS, THE ASSOCIATED
+DOCUMENTATION, THE OPERATION OF THE SITECORE SOFTWARE, THE SITECORE MAINTENANCE
+PROGRAM, OR ANY OTHER GOODS OR SERVICES RENDERED BY LICENSOR TO LICENSEE,
+INCLUDING BUT NOT LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY,
+PERFORMANCE, ACCURACY, NON-INFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE AND
+ALL WARRANTIES ARISING FROM COURSE OF DEALING OR USAGE OF TRADE. LICENSOR
+EXPRESSLY DISCLAIMS ANY AND ALL EXPRESS, IMPLIED OR STATUTORY WARRANTIES THAT
+THE SITECORE SOFTWARE WILL RUN PROPERLY ON ANY HARDWARE, THAT THE SITECORE
+SOFTWARE WILL MEET LICENSEE’S REQUIREMENTS OR OPERATE IN THE COMBINATIONS WHICH
+MAY BE SELECTED FOR USE BY LICENSEE, OR THAT THE OPERATION OF THE SITECORE SOFTWARE
+WILL BE UNINTERRUPTED OR ERROR FREE, OR THAT ALL ERRORS WILL BE CORRECTED.
+LICENSOR MAKES NO EXPRESS OR IMPLIED WARRANTY OF ANY KIND REGARDING ANY
+SEPARATELY LICENSED SOFTWARE OR SITECORE APPS THAT MAY BE USED WITH THE
+SITECORE SOFTWARE.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;4. &lt;u&gt;LIMITATION OF LIABILITY&lt;/u&gt;: LICENSOR (DEFINED
+IN THIS SECTION AS LICENSOR’S PARENT, AFFILIATES, SUBSIDIARIES, DISTRIBUTORS
+AND THEIR RESPECTIVE OFFICERS, DIRECTORS AND EMPLOYEES) SHALL NOT BE LIABLE TO
+LICENSEE OR ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF OR RELATED TO THIS
+AGREEMENT, OR ANY AGREEMENT RELATED TO ANY SITECORE APPS, UNDER ANY LEGAL
+THEORY, INCLUDING BUT NOT LIMITED TO, LOST PROFITS, LOST DATA OR BUSINESS
+INTERRUPTION, THE COST OF RECOVERING ANY DATA, INFRINGEMENT, OR THE COST OF
+SUBSTITUTE SOFTWARE, EVEN IF LICENSOR HAS BEEN ADVISED OF, KNOWS OF, OR SHOULD
+HAVE KNOWN, OF THE POSSIBILITY OF SUCH DAMAGES. LICENSOR’S AGGREGATE LIABILITY
+UNDER THIS AGREEMENT (INCLUDING ALL AGREEMENTS RELATED TO ANY SITECORE APPS), SHALL
+NOT EXCEED THE AMOUNT OF FEES (NOT INCLUDING MAINTENANCE PROGRAM CHARGES) PAID
+BY LICENSEE FOR USE OF THE SITECORE SOFTWARE UNDER THIS AGREEMENT. LICENSOR
+WILL NOT BE LIABLE FOR DELAYS OR FAILURES IN PERFORMANCE OF THE SUPPORT OR ANY
+OTHER SERVICES CAUSED BY FORCES BEYOND ITS CONTROL OR ANY FORCE MAJEURE EVENT
+SUCH AS ACT OF TERRORISM, LOSS OF POWER, ACT OF GOD, OR SIMILAR OCCURRENCE OR
+FOR DAMAGES CAUSED BY LICENSEE’S FAILURE TO PERFORM ITS OBLIGATIONS UNDER THIS
+AGREEMENT. THE LIMITATION PROVISIONS OF THIS SECTION SHALL BE APPLICABLE TO ANY
+CLAIM FILED BY LICENSEE ARISING OUT OF OR RELATING TO ANY SEPARATELY LICENSED
+SOFTWARE THAT MAY BE USED WITH THE SITECORE SOFTWARE. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;5. &lt;u&gt;Sitecore Maintenance Program&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span style="font-size:10.0pt"&gt;:&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt; The
+Sitecore Maintenance Program includes Upgrades and support. Upgrades are free
+of charge for as long as Licensee is enrolled in the Maintenance Program.
+Licensee will automatically be included in the Maintenance Program and will be
+charged an annual fee of 20% of the listed retail cost of all software
+purchased. The Maintenance Program is free of charge for the first year after
+the initial purchase of Sitecore Software. Three years after the date of the
+initial purchase and each three-year anniversary thereafter, Licensor may
+adjust the Maintenance Program charge then in effect for all software purchased
+under this Agreement to 20% of the Licensor’s then-current retail prices.
+Licensee may cancel the Maintenance Program by providing Licensor with 60 days
+notice prior to the end of any 12-month Maintenance Program period.    Licensor
+may cancel the Maintenance Program upon Licensee’s failure to pay timely any
+applicable Maintenance Program charge. A cancelled Maintenance Program may not
+be renewed except upon payment of double the amount of fees that would have
+been paid during the lapsed period. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;6. &lt;u&gt;Upgrades and Patches of Sitecore Software&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: “Patch” as used in this Agreement means a specific,
+targeted fix to a discrete problem in the use or functionality of the Sitecore
+Software that Licensor in its sole discretion defines to constitute a “Patch”
+and may from time to time provide to Licensee. “Upgrade” as used in this
+Agreement means a new version of some or all of the Sitecore Software, or an
+improvement in the use or functionality of the Software more substantial than a
+Patch, that Licensor in its sole discretion defines to constitute an “Upgrade”
+and may from time to time provide to Licensees enrolled in the Sitecore
+Maintenance program. Licensee expressly acknowledges that Upgrades and Patches
+may change functionality of the Software and integration with other systems,
+and may not work with some or all of the Sitecore Software modules, or be
+backward compatible with earlier versions of Sitecore Software. Installation of
+Patches and Upgrades is the choice and responsibility of Licensee. To the
+extent that operation of the Sitecore Software is affected by problems in
+standard software, including, but not limited to, Microsoft Internet Explorer,
+Windows and the Microsoft.Net, then Licensee shall install updates to such
+standard software per Licensor’s specifications in order to resolve these
+issues. Licensor has no control over such standard software, and cannot assure
+that problems with such standard software will be corrected, or that such
+corrections will be made in a timely manner. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;7. &lt;u&gt;Injunctive Relief Authorized&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: Licensor and Licensee agree that the remedy at law
+for any breach or threatened breach of any of the provisions in Section 1
+(including all subsections in Section 1) are inadequate, and in addition to any
+other remedy available at law or equity under this Agreement, a party shall be
+entitled to seek injunctive relief for violations of Section 1 and its
+subsections, as well as for violations of any other Section as may be
+authorized by law or equity. The prevailing party in any such action for
+injunctive relief shall be entitled to recover all of its attorney fees and
+costs.&lt;/span&gt;&lt;span style="font-size:8.5pt;font-family:" calibri","sans-serif""=""&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;8.  &lt;u&gt;Waivers&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:
+10.0pt"&gt;: All waivers must be in writing and signed by authorized
+representatives of the parties. Any waiver or failure to enforce any provision
+of this Agreement on one occasion shall not be deemed a waiver of any other
+provision or of such provision on any other occasion. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;9.  &lt;u&gt;Severability&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: If any provision of this Agreement is adjudicated to
+be unenforceable, such provision shall be deemed changed and interpreted to
+accomplish the objectives of such provision to the greatest extent possible
+under applicable law and the remaining provisions shall continue in full force
+and effect. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;10.  &lt;u&gt;Assignment&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: Licensee may not assign or transfer its interests,
+rights, or obligations under this Agreement by written agreement, merger,
+consolidation, operation of law, or otherwise, without the prior written
+consent of an authorized executive officer of Licensor. Licensor may assign
+this Agreement to a successor (whether by merger, a sale of all or a
+significant portion of its assets, a sale of a controlling interest of its
+capital stock, or otherwise) that agrees to assume Licensor’s obligations under
+this Agreement. Any attempted assignment or transfer in violation of this
+Section shall be void and of no force or effect.&amp;nbsp; &amp;nbsp;Subject to the
+provisions of this Section, this Agreement shall be binding upon successors and
+assigns.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal"&gt;&lt;b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt;11. &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt; &lt;u&gt;Licensee’s Warranties and &lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; Indemnity&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; by
+Licensee&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt;: &lt;/span&gt;&lt;/b&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt;Licensee warrants and represents that it
+shall &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;not
+&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;use
+the Sitecore Software &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt;or Sitecore Apps in any way that (1) Is
+unlawful under any&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt; applicable &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:
+10.0pt;font-family:" arial","sans-serif""=""&gt;law; (2) Violates the intellectual
+property rights of any third party, including, but not limited to, &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;laws&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;
+protecting copyrights, patents, trademarks, and trade secrets, when such
+intellectual property violations are caused by use of the Software or creation
+of content not authorized by Sitecore; (3) Violates any agreement from a third
+party vendor engaged by Licensor to provide services to Licensee; (4) Promotes
+the creation or transmission of spam, hacking, phishing, phreaking, computer
+viruses or malicious code; (5) Seeks, without authorization,  to monitor,
+interfere with,  or gain access to the data, systems or networks of Licensor or
+any third party;( (6) Uses any false, misleading, or deceptive network packet
+header information; (7) Distributes software that covertly gathers information
+about a user or covertly transmits information about a user; (8) Distributes
+advertisement delivery software unless: (i) the user affirmatively consents to
+the download and installation of such software based on a clear and conspicuous
+notice of the nature of the software, and (ii) the software is easily removable
+by use of standard tools for such purpose included on major operating systems;
+(such as Microsoft's &amp;quot;ad/remove&amp;quot; tool); and (9) Is likely to result
+in retaliation against the Licensor or a third party vendor’s  network or
+website, including engaging in conduct that results in any server being the
+target of a denial of service attack. &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:
+10.0pt;font-family:" arial","sans-serif""=""&gt; Licensee shall defend, indemnify and
+hold harmless Licensor and its &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt;vendors, &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;employees, officers,
+directors, parent, subsidiaries, affiliates, agents, representatives, insurers,
+distributors, successors and assigns against any and all claims, demands,
+actions, suits, &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt; and &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt;proceedings&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; and from all&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;, costs,
+expenses (including attorney fees and costs), damages and liabilities
+(including the settlement &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;
+font-family:" arial","sans-serif""=""&gt;or judgments entered in&lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt; any such
+matters), arising out of, connected with or &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;in any way &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:" arial","sans-serif""=""&gt;resulting
+from Licensee's &lt;/span&gt;&lt;span lang="EN-GB" style="font-size:10.0pt;font-family:
+" arial","sans-serif""=""&gt; use of the Sitecore Software or any Sitecore Apps in
+violation of this Section. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;b&gt;&lt;span style="font-size:10.0pt"&gt;12. &lt;u&gt;Entire Agreement&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style="font-size:10.0pt"&gt;: This Agreement, and any attachment that expressly
+incorporates this Agreement, constitutes the entire agreement between the
+parties regarding the subject matter hereof and supersedes all prior or
+contemporaneous agreements, understandings and communications, whether written
+or oral. This Agreement may be amended only by a written document signed by
+both parties. In the event of a conflict between any provision of this
+Agreement with any other attachment or document, this Agreement shall control. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="Default" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;span style="font-size:10.0pt"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;span lang="EN-GB" style="font-size:8.0pt;font-family:" arial","sans-serif""=""&gt;Sitecore License
+Agreement June 2, 2010. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class="MsoNormal" style="margin-bottom:10.0pt;text-align:justify"&gt;&lt;span lang="EN-GB" style="font-size:10.0pt"&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;</License>
+      <Comment />
+      <Attributes />
+      <Readme>Calendar Upgrade Package:
+
+1. Click “Yes to all” when you are asked whether you wish to override existing files.
+
+2. Clear your browser's cache.
+
+3. Add the following module to the configuration\system.webServer\modules section of the web.config file. 
+&lt;add name="CalendarScriptModule" type="Sitecore.Modules.CalendarScriptModule, Sitecore.Calendar"/&gt;</Readme>
+      <Publisher>Sitecore Corporation</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/sitecore.calendar.dll</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/Scripts/Managers/WeekManager.js</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/Controls/CalendarPopup.aspx</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/Scripts/LoadScripts.js</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

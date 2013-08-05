@@ -1,0 +1,65 @@
+----item----
+version: 1
+id: {D8616FD3-3FD3-4F9D-B017-BEA5232EA875}
+database: master
+path: /sitecore/templates/Branches/Calendar/Agenda View Settings/$name
+parent: {39A58F35-C419-4DB3-91F2-6D956373D159}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {BF8338C9-5090-4917-A883-57F91547B458}
+templatekey: Agenda View
+
+----field----
+field: {DE844E59-7B5B-4FB2-AE9B-26C5E7E3833E}
+name: Show All
+key: show all
+content-length: 1
+
+1
+----version----
+language: en
+version: 1
+revision: 17a30797-c679-4f06-bf51-2466ce7a8ee2
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T151616
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+17a30797-c679-4f06-bf51-2466ce7a8ee2
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T153514:633487953143437500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

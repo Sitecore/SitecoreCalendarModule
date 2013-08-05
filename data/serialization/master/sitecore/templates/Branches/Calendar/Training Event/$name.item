@@ -1,0 +1,72 @@
+----item----
+version: 1
+id: {F3FD25B6-33F1-4FF6-97DC-BE127F4945DB}
+database: master
+path: /sitecore/templates/Branches/Calendar/Training Event/$name
+parent: {B51C6447-670C-4FF8-9FD8-84E78F9E7C10}
+name: $name
+master: {00000000-0000-0000-0000-000000000000}
+template: {363CE785-127D-421D-B08C-DBC556112DE5}
+templatekey: Event
+
+----field----
+field: {FD41F799-3C3D-42E2-B8BB-DD0053060CA5}
+name: Related Item
+key: related item
+content-length: 118
+
+<link url="/Home/Training/Course Overview/Register" linktype="internal" id="{86CDF1E7-3A83-4898-8A17-12DCC806274F}" />
+----version----
+language: en
+version: 1
+revision: bc5af3ec-4729-41e1-981a-7a57a698871a
+
+----field----
+field: {D877976C-4349-4068-B6E2-5D5D97094E6C}
+name: Title
+key: title
+content-length: 5
+
+$name
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T170803
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+bc5af3ec-4729-41e1-981a-7a57a698871a
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T170825:633488009059383830
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

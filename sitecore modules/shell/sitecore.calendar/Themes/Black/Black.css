@@ -1,0 +1,68 @@
+﻿/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizardTabActive A,
+.eventToolbarTable,
+.textEvent
+{
+   color: black;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Background Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.eventWizardHeader,
+.eventWizardTab,
+.eventWizardTab A,
+.eventWizardBFrame,
+.wizardLink,
+.event,
+.eventList,
+.event A,
+.eventWeek,
+.eventWeek A,
+.eventPhantom A,
+.eventPhantom,
+.daysNames,
+.viewModeLink,
+.dayTasksMenuItem,
+.dayTasksMenuItem A,
+.frame,
+.TabActive,
+.TabActive a,
+.navHeader,
+.navDayHeader,
+.firstHalf,
+.secHalf,
+.calendarsListHeader
+{
+   background-color: black;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Borders
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizard,
+.navCalendar,
+.secHalf,
+.calendarsList,
+.quickSelect
+{
+   border-top: black 1px solid;
+}
+
+.eventWizard,
+.secHalf,
+.navCalendar
+{
+   border-right: black 1px solid;
+   border-left: black 1px solid;
+   border-bottom: black 1px solid;
+}

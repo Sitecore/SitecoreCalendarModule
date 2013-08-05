@@ -1,0 +1,119 @@
+----item----
+version: 1
+id: {C332D9C3-B3D8-4D30-A174-C706B3346407}
+database: master
+path: /sitecore/content/Calendar Events
+parent: {0DE95AE4-41AB-4D01-9EB0-67441B7C2450}
+name: Calendar Events
+master: {30235F43-6242-4107-87AB-5267E34EDF0C}
+template: {27744A3C-F559-463B-B163-DE49E10A7B21}
+templatekey: Calendar Folder
+
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 30
+
+business/16x16/calendar_52.png
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 3
+
+600
+----field----
+field: {1172F251-DAD4-4EFB-A329-0C63500E4F1E}
+name: __Masters
+key: __masters
+content-length: 38
+
+{165AC42C-B3EB-403B-93B2-7DADA7FA86EC}
+----field----
+field: {DEC8D2D5-E3CF-48B6-A653-8E69E2716641}
+name: __Security
+key: __security
+content-length: 161
+
+sitecore|{FADA8085-6C53-4B55-A877-57352DB4253E}|5397||extranet|{25DD18AE-3982-45F9-907A-344D505C0A1D}|5396||extranet|{00088163-665D-4F6F-9E63-C0CF1FB4E2FE}|256||
+----version----
+language: 
+version: 1
+revision: 38326944-90ea-4003-9989-ce594d0400e7
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T111653
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+38326944-90ea-4003-9989-ce594d0400e7
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111653:633487798133593750
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 2c98dcf0-30b7-4360-99ef-df0110617d91
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070726T105427
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+2c98dcf0-30b7-4360-99ef-df0110617d91
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T112117:633487800774062500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {001DD393-96C5-490B-924A-B0F25CD9EFD8}
+name: __Lock
+key: __lock
+content-length: 5
+
+<r />

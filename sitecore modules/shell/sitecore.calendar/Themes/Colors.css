@@ -1,0 +1,304 @@
+﻿/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.eventWizardTabActive A,
+.eventToolbarTable
+{
+   color: #0066CC;
+}
+
+.eventWizard,
+.eventToolbarInput,
+.eventToolbarCombo,
+.navCalendarText a,
+.navCalendarTextEvents a,
+.navOtherMonth,
+.navOtherMonthEvents,
+.calendarsList,
+.quickSelect,
+.quickSelect select,
+.quickSelect A:hover,
+.Tab,
+.Tab a
+{
+   color: black;
+}
+
+.agendaDate
+{
+	color: #A4A4A4;
+}
+
+.helpText
+{
+   color: #0000ff;
+}
+
+.eventWizardTab A,
+.eventWizardButton,
+.eventWizardButton A,
+.eventToolbarButton,
+.eventToolbarCancel,
+.event,
+.eventList,
+.event A,
+.eventWeek,
+.eventWeek A,
+.eventPhantom A,
+.eventPhantom,
+.daysNames,
+.viewModeLink,
+.dayTasksMenuItem,
+.dayTasksMenuItem A,
+.TabActive,
+.TabActive a,
+.navHeader,
+.navDayHeader,
+.navDaySelected a,
+.navOtherMonth A,
+.navNextPrev,
+.navNextPrev A,
+.navWeekdays,
+.firstHalf,
+.calendarsListHeader,
+.dayCellSelected, 
+.dayCellSelected A
+{
+   color: #ffffff;
+}
+
+.selectorButton,
+.quickSelect A
+{
+   color: Gray;
+}
+
+.dayCellHeader A
+{
+   color: blue;
+}
+
+.dayCellHeaderOM,
+.dayCellHeaderOM A
+{
+   color: dimgray;
+}
+
+.dayTasksMenuItem A:hover
+{
+   color: orange;
+}
+
+.progressPanel
+{
+   color: silver;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Background Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizardHeader,
+.eventWizardTab,
+.eventWizardTab A,
+.eventWizardBFrame,
+.event,
+.eventList,
+.event A,
+.eventWeek,
+.eventWeek A,
+.eventPhantom A,
+.eventPhantom,
+.daysNames,
+.viewModeLink,
+.dayTasksMenuItem,
+.dayTasksMenuItem A,
+.frame,
+.TabActive,
+.TabActive a,
+.navHeader,
+.navDayHeader,
+.firstHalf,
+.secHalf,
+.calendarsListHeader
+{
+   background-color: #0066CC;
+}
+
+#idModalBackground
+{
+   background-color: #6699ff;
+}
+
+.eventWizard,
+.eventWizardTabActive,
+.eventWizardTabActive A
+{
+   background-color: #f0f8ff;
+}
+
+.dayCellSelected, 
+.dayCellSelected A
+{
+   background-color:#FAB114;
+}
+
+.Tab,
+.eventInline,
+.Tab a,
+.navCalendar
+{
+   background-color: white;
+}
+
+.navOtherMonthEvents,
+.navOtherMonth
+{
+   background-color: #eaedeb;
+}
+
+.navCalendarTextSelected
+{
+	background-color:#FAB114;
+}
+
+.navWeekdaysEvents,
+.navWeekdays,
+.dayCellWeekEnd
+{
+   background-color: #ffe7bb;
+}
+
+.eventWizardMainPanel,
+.dayCellMonth,
+.dayCellMonthEvents,
+.dayCellWeek
+{
+   background-color: white;
+}
+
+.eventToolbarTable
+{
+   background-color: silver;
+}
+
+.dayCellMonthHOVER
+{
+   background-color: #ffd09f;
+}
+
+.dayCellOtherMonth
+{
+   background-color: #eeeeee;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Borders
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizard,
+.navCalendar
+{
+   border-right: #0066CC 1px solid;
+   border-left: #0066CC 1px solid;
+   border-bottom: #0066CC 1px solid;
+}
+
+.eventWizard,
+.navCalendar,
+.secHalf,
+.calendarsList,
+.quickSelect
+{
+   border: solid 1px #0066CC;
+}
+
+.eventWizardMainPanel,
+.dayCellMonth,
+.dayCellWeek,
+.dayCellSelected,
+.dayCellWeekEnd,
+.dayCellOtherMonth
+{
+   border-right: darkgray 1px solid;
+   border-top: darkgray 1px solid;
+   border-left: darkgray 1px solid;
+   border-bottom: darkgray 1px solid;
+}
+
+.eventToolbarTable
+{
+   border-right: white 1px solid;
+   border-top: white 1px solid;
+   border-left: white 1px solid;
+   border-bottom: white 1px solid;
+}
+
+.event
+{
+   border-top: #ffffff 1px solid; 
+   border-bottom: #555 1px solid; 
+}
+
+.firstHalf,
+.firstHalfDay,
+.navDayHeader
+{
+   border-top: #ffffff 1px solid;
+}
+
+.eventList,
+.eventWeek,
+.eventWeek A,
+.eventPhantom
+{
+   border-bottom: #444 1px solid;
+   border-right: #444 1px solid;
+   border-top: white 1px solid;
+   border-left: white 1px solid;
+}
+
+.todayCellMonth
+{
+   border: red 2px solid;
+}
+
+.dayCellMonthHOVER
+{
+   border-right: #ff6600 1px solid;
+   border-top: #ff6600 1px solid;
+   border-left: #ff6600 1px solid;
+   border-bottom: #ff6600 1px solid;
+}
+
+.firstHalfDay
+{
+   border-bottom: gainsboro 1px dashed;
+}
+
+.secHalfDay
+{
+   border-bottom: gainsboro 1px solid;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         General
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizardFrame
+{
+   filter: shadow(color:gray, strength:5, direction:150);
+}
+
+.eventToolbarFrame
+{
+   filter: shadow(color:gray, strength:5, direction:132);
+}

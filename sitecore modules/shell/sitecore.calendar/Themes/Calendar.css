@@ -1,0 +1,1029 @@
+﻿html, body
+{
+	padding: 0px;	
+	-moz-user-select:-moz-none;
+}
+
+input, textarea
+{
+	-moz-user-select:text;
+}
+
+img
+{
+	border : 0; 
+	behavior: url(   "/sitecore modules/shell/sitecore.calendar/scripts/pngbehavior.htc" );
+}
+
+#idModalBackground
+{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	z-index: 10010;
+	display: none;
+	filter: alpha(opacity=20);
+	-moz-opacity: .20;
+	opacity: .20;
+	vertical-align: middle;
+}
+
+.wizardLink
+{
+	cursor: pointer;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.recurrent
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-right: 2px;
+}
+
+.frame
+{
+	background-color: #000000;
+}
+
+.viewModeLink
+{
+	width: 3px;
+	height: 100%;
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	font-size: 0.9em;
+	color: white;
+	background-color: blue;
+	font-family: Tahoma, Sans-Serif;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.aLink
+{
+	cursor: pointer;
+	display: block;
+}
+
+.textEvent
+{
+	color : blue;
+	display : inline;
+	font-weight : bold;
+	cursor : pointer;
+	font-size:0.9em;
+	padding-left:1px;
+}
+
+.customLink
+{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: black;
+	font-family: Tahoma, Sans-Serif;
+	cursor: pointer;
+}
+
+.dayNumber
+{
+	text-decoration: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.textEvent:hover,
+.aLink:hover,
+.customLink:hover,
+.dayNumber:hover,
+.dayCellHeaderOM:hover,
+.dayCellHeader:hover,
+.viewModeLink:hover
+{
+	text-decoration : underline;
+}
+
+.calendar
+{
+	padding : 0px;
+	margin  : 0px;
+	position : relative;
+}
+
+.calendarMonth
+{
+   padding : 0px;
+	margin  : 0px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         AGENDA 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.agendaDate
+{
+	font-size: 0.9em;
+	font-style: italic;
+}
+
+ul.agenda-links
+{
+	margin: 0;
+	padding: 0;
+}
+
+ul.agenda-links li
+{
+	list-style: none;
+	padding: .2em 0 1em 0;
+	margin-left: 0.4em;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+        LOGIN 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+#idError
+{
+	border: solid 1px white;
+	font-weight: bold;
+}
+
+.login
+{
+	font-family: Verdana;
+	font-size: 0.7em;
+	width: 220px;
+	padding: 7px;
+	text-align: left;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#loginBody
+{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.login input
+{
+	font-family: Verdana;
+	font-size: 0.801em;
+	height: 1.5em;
+	width: 12em;
+}
+
+.UserName
+{
+	padding: 5px;
+	text-align: center;
+	display: block;
+}
+
+
+.logout
+{
+	text-decoration: none;
+	text-align: center;
+	display: block;
+	font-weight: bold;
+}
+
+
+.login #btnLogin
+{
+	height: 2em;
+	width: 5em;
+}
+
+.welcome
+{
+	border: gray 1 solid;
+	padding-bottom: 4px;
+	display: block;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Event Popups
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.helpText
+{
+	font-size: 0.901em;
+	vertical-align: top;
+	font-family: Verdana;
+}
+
+.calendarImage
+{
+	cursor: pointer;
+}
+
+.ctrlCombo
+{
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.ctrlInput
+{
+	font-family: Verdana;
+	font-size: 1em;
+}
+
+.eventWizardFrame
+{
+	z-index: 10020;
+	width: 560px;
+	height: 400px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	display: none;
+	filter: shadow(color:gray, strength:5, direction:150);
+
+}
+
+.eventWizard
+{
+	margin-right: 20px;
+	margin-bottom: 20px;
+	z-index: 10030;
+	width: 520px;
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	font-weight: normal;
+	font-size: 0.9em;
+	font-family: Verdana;
+    font-size : x-small;
+    padding-bottom : 2px;
+}
+
+.eventWizardHeader
+{
+	vertical-align: bottom;
+}
+
+.eventWizardTab
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.eventWizardTab A
+{
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.eventWizardTabActive
+{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.eventWizardTabActive A
+{
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Verdana;
+	font-weight: bold;
+}
+
+.eventWizardMainPanel
+{
+	margin: 5px;
+	width: 500px;
+	height: 250px;
+}
+
+.recurSelector
+{
+	width:500px;
+}
+
+#idWeekRecur, #idDayRecur, #idMonthRecur, #idYearRecur
+{
+	height : 150px;
+	margin-top : 5px;
+	margin-left : 40px;
+}
+
+.eventWizardBFrame
+{
+	width: 100%;
+	margin-left: 5px;
+	text-align: center;
+}
+
+.eventWizardButton
+{
+	padding: 1px;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Verdana;
+	margin: 10px;
+}
+
+.eventWizardButton A
+{
+	padding: 1px;
+	text-decoration: none;
+	font-size: 1em;
+	font-family: Verdana;
+	margin: 10px;
+}
+
+.eventToolbarTable
+{
+	font-size: 0.8em;
+	text-transform: none;
+	font-family: Verdana;
+}
+
+.eventToolbarFrame
+{
+	width: 160px;
+	height: 60px;
+	display: none;
+	position: absolute;
+}
+
+.eventToolbarInput
+{
+	height: 10px;
+	width: 94%;
+	font-size: 10px;
+	font-family: Verdana;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+
+.eventToolbarCombo
+{
+	height: 20px;
+	width: 98%;
+	font-size: 10px;
+	font-family: Verdana;
+	margin-top: 1px;
+	margin-left: 2px;
+}
+
+
+.eventToolbarButton
+{
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Verdana;
+	margin: 5px;
+	font-weight: bold;
+}
+
+.eventToolbarCancel
+{
+	font-size: 10px;
+	text-decoration: none;
+	font-family: Verdana;
+	margin: 5px;
+	font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+     
+     EVENT 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.event
+{
+	display: block;
+	width: 95%;
+	font-size: 0.8em;
+	line-height: 1em;
+	font-family: Verdana;
+	text-decoration: none;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.eventImage
+{
+	display: inline;
+	cursor: pointer;
+}
+
+.eventList
+{
+	width: 100%;
+	padding-right: 5px;
+	font-size: 0.9em;
+	font-family: Verdana;
+}
+
+.eventList INPUT
+{
+	width: 15px;
+	height: 15px;
+}
+
+.event A
+{
+	display: block;
+	width: 84%;
+	height: 10px;
+	margin: 4px;
+	font-size: 1em;
+	font-family: Verdana;
+	padding-right: 10px;
+	padding-left: 10px;
+	text-decoration: none;
+}
+
+.eventWeek
+{
+	display: block;
+	font-family: Verdana;
+	text-decoration: none;
+	filter: alpha(opacity=75);
+	word-wrap: break-word;
+	-moz-opacity: .75;
+	opacity: .75;
+}
+
+.eventInMonth
+{
+	margin-left: 1px;
+	margin-bottom: 1px;
+	margin-right: 1px;
+	font-size: 0.9em;
+	word-wrap: break-word;
+	width: 100%;
+	float: left;
+	
+/*	border-right : lightgrey 1px solid;
+	border-top: lightgrey 1px solid;
+	border-left: lightgrey 1px solid;
+	border-bottom: lightgrey 1px solid;	
+*/
+}
+
+.eventInline
+{
+	margin-left: 1px;
+	margin-bottom: 1px;
+	margin-right: 1px;	
+ 	border-right : lightgrey 1px solid;
+	border-top: lightgrey 1px solid;
+	border-left: lightgrey 1px solid;
+	border-bottom: lightgrey 1px solid;
+	word-wrap: break-word;	
+	position : absolute;		
+}
+
+.eventInline A
+{
+	line-height: normal;
+	font-weight: bold;
+}
+
+.eventInline span
+{
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 10px;
+}
+
+.eventWeek A
+{
+	display: block;
+	width: 80%;
+	height: 10px;
+	margin: 4px;
+	
+	text-transform: uppercase;
+	font-family: Verdana;
+	padding-right: 10px;
+	padding-left: 2px;
+	text-decoration: none;
+}
+
+.eventPhantom A
+{
+	display: block;
+	width: 80%;
+	height: 10px;
+	margin: 4px;
+	font-size: 0.6em;
+	font-family: Verdana;
+	padding-right: 5px;
+	padding-left: 1px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-decoration: none;
+}
+
+.eventPhantom
+{
+	display: block;
+	width: 80%;
+	height: 1.7em;
+	margin: 4px;
+	font-size: 0.6em;
+	font-family: Verdana;
+	padding-right: 5px;
+	padding-left: 1px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-decoration: none;
+	filter: alpha(opacity=70);
+	-moz-opacity: .720;
+	opacity: .720;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+   
+       DAY
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.daysNames
+{
+	text-align: center;
+	vertical-align: middle;
+	border-collapse: collapse;
+	font-size: 1em;
+	width: 100%;
+	height: 15px;
+	padding-right: 5px;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.dayCellHeader
+{
+	height: 15px;
+	padding-right: 2px;
+	text-align: right;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.dayCellHeader A
+{
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.dayCellHeaderOM
+{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	font-family: Verdana;
+	text-decoration: none;
+}
+
+.dayCellHeaderOM A
+{
+	display: block;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: right;
+	vertical-align: middle;
+	text-decoration: none;
+}
+
+.todayCellMonth
+{
+	vertical-align: top;
+	width: 100%;
+	height: 100%;
+	margin: 1px;
+	width: 96%;
+	height: 100%;
+	background-color:White;
+}
+
+.dayCellSelected
+{
+	vertical-align: top;
+	margin: 1px;
+	width: 96%;
+	height: 100%;
+}
+
+.dayCellMonthHOVER
+{
+	height: 100%;
+	width: 96%;
+	margin: 1px;
+}
+
+
+.dayCellMonth
+{
+	vertical-align: top;
+	margin: 1px;
+	width: 96%;
+	height: 100%;
+}
+
+.dayCellOtherMonth
+{
+	vertical-align: top;
+	margin: 1px;
+	width: 96%;
+	height: 100%;
+}
+
+.dayCellWeekEnd
+{
+	vertical-align: top;
+	margin: 1px;
+	width: 96%;
+	height: 100%;
+}
+
+.monthGrid
+{
+	width: 100%;
+	border-collapse: collapse;
+	overflow: hidden;
+	table-layout:fixed;
+}
+
+.weekGrid
+{
+	height: 100%;
+	border-collapse: collapse;    
+	overflow: hidden;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+      DAY DOT MENU 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.dayTasksMenu
+{
+	position: absolute;
+	width: 140px;
+}
+
+.dayTasksMenuItem
+{
+	text-transform: none;
+	font-family: Verdana, Sans-Serif;
+	height: 8px;
+	width: 100%;
+	text-align: left;
+}
+
+.dayTasksMenuItem A
+{
+	text-transform: none;
+	font-family: Verdana, Sans-Serif;
+	height: 8px;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-size: 0.85em;
+}
+
+.dayTasksMenuItem A:hover
+{
+	text-transform: none;
+	font-family: Verdana, Sans-Serif;
+	height: 10px;
+	width: 100%;
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+         TABS 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.TabActive
+{
+	padding-left: 5px;
+	padding-right: 5px;
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: Tahoma, Sans-Serif;
+	font-weight: bold;
+}
+
+.TabActive a
+{
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: Tahoma, Sans-Serif;
+	font-weight: bold;
+}
+
+.Tab
+{
+	text-decoration: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 0.8em;
+	font-family: Tahoma, Sans-Serif;
+	font-weight: bold;
+}
+
+.Tab a
+{
+	text-decoration: none;
+	font-size: 0.9em;
+	font-family: Tahoma, Sans-Serif;
+	font-weight: bold;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      DATE PICKER
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.navCalendar,
+.navCalendar a
+{
+   text-decoration : none;
+   font-weight : normal;
+}
+
+
+.navHeader
+{
+	font-family: Verdana, Arial, Helvetica;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+}
+
+.navDayHeader
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navDaySelected a
+{
+	font-family: Verdana;
+	font-weight : normal;
+}
+
+.navCalendarText a,
+.navOtherMonth a,
+.navWeekdays a
+{
+	font-weight : normal;
+}
+
+.navCalendarTextEvents a,
+.navOtherMonthEvents a,
+.navWeekdaysEvents a
+{
+	font-weight : bold;
+}
+
+.navWeekdaysEvents,
+.navOtherMonthEvents,
+.navCalendarTextEvents,
+.navWeekdays,
+.navOtherMonth,
+.navCalendarText
+{
+    font-family : Verdana, Arial, Helvetica, sans-serif;
+}
+
+.navWeekdays A,
+.navOtherMonth A,
+.navCalendarText A
+{
+	font-family: Verdana;
+	font-weight : inherit;
+}
+
+.navNextPrev
+{
+}
+
+.navNextPrev A
+{
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+      TIME CELLS
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.scCTimRuler
+{
+	width:65px !important;
+}
+
+.firstHalf
+{
+	font-size: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: Verdana, Sans-Serif;
+	padding-left: 5px;
+	padding-right: 5px;
+	width:65px !important;
+	text-align : center;
+}
+
+.secHalf
+{
+	font-size: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: Verdana, Sans-Serif;
+}
+
+.firstHalfDay
+{
+	font-size: 10px;
+	font-family: Verdana, Sans-Serif;
+}
+
+.secHalfDay
+{
+	font-size: 10px;
+	font-family: Verdana, Sans-Serif;
+}
+
+.calendarsList
+{
+	width: 100%;
+	margin-top: 10px;
+	font-size: 0.7em;
+	font-family: Verdana;
+}
+
+.calendarsListHeader
+{
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 1em;
+	text-align: center;
+}
+
+.progressBar
+{
+	position: absolute;
+	z-index: 10010;
+	display: block;
+	filter: alpha(opacity=80);
+	-moz-opacity: .80;
+	opacity: .80;			
+	font-size: 0.9em;
+	margin-left: 10px;
+	top: 0px;
+	margin-top: 0;
+	padding: 0;
+	vertical-align: top;
+	text-align: right;
+	font-family: Verdana;
+	text-align:right;
+	width:100%;
+	left:0px;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         QUICK DATE PICKER 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.quickDatePicker
+{
+	width: 220px;
+}
+
+.quickDatePickerHeader
+{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1.2em;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	vertical-align: middle;
+	font-weight: bold;
+	display: block;
+}
+
+.quickSelect
+{
+	width: 100%;
+	margin-bottom: 5px;
+	border: solid 1px #0066CC;
+	font-size: 0.7em;
+	font-family: Verdana;
+}
+
+.quickSelect select
+{
+	width: 100%;
+	margin-bottom: 5px;
+	padding: 0;
+	font-size: 1em;
+	font-family: Verdana;
+}
+
+.quickSelect A
+{
+	padding-right: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+.quickSelect A:hover
+{
+	padding-right: 10px;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         CALENDAR SELECTOR 
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.calendarSelector
+{
+	width: 220px;
+}
+
+.calendarSelectorHeader
+{
+	display: block;
+	margin-bottom: 5px;
+	text-decoration: none;
+	font-family: Verdana;
+	margin-left: 5px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.selectorButton
+{
+	text-decoration: none;
+	font-family: Verdana;
+	font-size: 1em;
+	margin-left: 5px;
+	vertical-align: middle;
+	font-weight: bold;
+}
+
+.typeViewSelector
+{
+   margin : 0px;
+   padding : 0px;
+}
+
+
+.emptycell
+{
+	width:65px;
+}
+
+.calendar, .calendarMonth, .navCalendar, .calendarSelector, .quickDatePicker
+{
+	font-size :12px;
+}
+
+.smalletPhantom
+{
+	font-size:1px;
+}

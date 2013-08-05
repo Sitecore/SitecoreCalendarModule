@@ -1,0 +1,156 @@
+----item----
+version: 1
+id: {6914B022-AC67-4641-ACF4-9B9A43976C23}
+database: master
+path: /sitecore/media library/Calendar/Thumbnails/ProgressBarThumb
+parent: {210EFBAB-1C75-44B6-BF03-AF3C564926F5}
+name: ProgressBarThumb
+master: {00000000-0000-0000-0000-000000000000}
+template: {F1828A2C-7E5D-4BBD-98CA-320474871548}
+templatekey: Image
+
+----field----
+field: {40E50ED9-BA07-4702-992E-A912738D32DC}
+name: Blob
+key: blob
+content-length: 3312
+
+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
+BITd/wNzgUxziP3B8gAAAABJRU5ErkJggg==
+----field----
+field: {22EAC599-F13B-4607-A89D-C091763A467D}
+name: Width
+key: width
+content-length: 3
+
+128
+----field----
+field: {DE2CA9E4-C117-4C8A-A139-1FF4B199D15A}
+name: Height
+key: height
+content-length: 3
+
+128
+----field----
+field: {C06867FE-9A43-4C7D-B739-48780492D06F}
+name: Extension
+key: extension
+content-length: 3
+
+png
+----field----
+field: {6F47A0A5-9C94-4B48-ABEB-42D38DEF6054}
+name: Mime Type
+key: mime type
+content-length: 9
+
+image/png
+----field----
+field: {6954B7C7-2487-423F-8600-436CB3B6DC0E}
+name: Size
+key: size
+content-length: 4
+
+2419
+----field----
+field: {CB09946F-3218-4823-87D2-D5007C199A96}
+name: Dimensions
+key: dimensions
+content-length: 9
+
+128 x 128
+----field----
+field: {06D5295C-ED2F-4A54-9BF2-26228D113318}
+name: __Icon
+key: __icon
+content-length: 61
+
+~/media/6914B022AC674641ACF49B9A43976C23.ashx?h=16&thn=1&w=16
+----version----
+language: en
+version: 1
+revision: 5d9c730e-152e-4b59-95b7-8f3fa54fd8c0
+
+----field----
+field: {65885C44-8FCD-4A7F-94F1-EE63703FE193}
+name: Alt
+key: alt
+content-length: 42
+
+Thumbnail for ProgressBar Calendar control
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20101112T134900
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+5d9c730e-152e-4b59-95b7-8f3fa54fd8c0
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20101112T135241:634251667615053989
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin

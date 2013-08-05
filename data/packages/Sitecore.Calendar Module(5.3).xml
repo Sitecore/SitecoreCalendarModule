@@ -1,0 +1,1039 @@
+<project>
+  <Metadata>
+    <metadata>
+      <PackageName>Sitecore Calendar</PackageName>
+      <Author>Sitecore Corporation</Author>
+      <Version>2.4.0 rev. 110526</Version>
+      <Revision />
+      <License>&lt;div class=WordSection1&gt;
+
+&lt;p class=Default align=center style=&#39;margin-bottom:10.0pt;text-align:center&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:11.5pt&#39;&gt;Sitecore License Agreement&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;LICENSEE'S USE OF THE SITECORE SOFTWARE IS SUBJECT TO
+LICENSEE'S FULL ACCEPTANCE OF THE TERMS, CONDITIONS, DISCLAIMERS AND LICENSE
+RESTRICTIONS SET FORTH IN THIS AGREEMENT. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal&gt;&lt;b&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt;1. &lt;u&gt;License Grant&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB
+style=&#39;font-size:10.0pt;font-family:&quot; arial&quot;,&quot;sans-serif&quot;&#39;&gt;: Upon payment in
+full of the license fee, Licensor grants Licensee a non-exclusive, perpetual,
+non-transferable, non-assignable, non-sublicensable license, without time
+limitations, to use the Sitecore Software in compliance with all applicable
+laws, in object code form only,&lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt; exclusively for management of Licensee's own
+current and future web infrastructure&lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:
+10.0pt&#39;&gt;, subject to the terms and conditions
+set forth in this License Agreement.&lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:
+10.0pt&#39;&gt; Except as expressly authorized by
+this Agreement, "Licensee" as used herein does not include any other entity or
+person, including any present or future subsidiary or affiliate of Licensee, or
+any entity or person owning any interest in Licensee at present or in the
+future.&lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt;
+"Sitecore Software" means the software that is licensed by Licensor in this
+Agreement, and any future Upgrades and Patches, as those terms are defined in
+Section 6 of this Agreement, that the Licensee may receive in accordance with
+the terms of the Agreement.  &lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt; &lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:
+10.0pt&#39;&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.1
+License Key&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;: Licensee will be
+provided a License Key that gives Licensee access to the Sitecore Software. The
+Sitecore Software may be used only on the equipment with the features and
+limitations specified in the License Key. The License Key shall be time-limited
+until full payment of the license fee has been received by Licensor. The
+License Key may limit the number of Servers on which the Sitecore Software may
+be installed. For purposes of this Agreement, one Server is defined as one
+installation and / or application instance on a physical or virtual Server with
+a processing power for the web process equivalent to at most eight CPU cores.
+For example, one physical Server may contain eight single core CPUs, four dual
+core CPUs, two quad core CPUs or one eight core CPU. A Server with three or
+four quad core CPUs would therefore count as two Servers.&lt;/span&gt;&lt;b&gt; &lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;A virtual server will be counted as the number of
+physical cores allocated or processor core equivalents allocated to the virtual
+server.&amp;nbsp; For example, one virtual server with two physical processor cores
+allocated, or with the equivalent of two simulated processor cores allocated,
+would be counted as the equivalent of one physical dual-core processor server.&lt;/span&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.2
+Intellectual Property Rights&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;: &lt;/span&gt;&lt;span
+lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt;Sitecore CMS Software is patented, U.S.
+Patent No. 7,856,345. &lt;/span&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;Ownership of the
+Sitecore Software, and all worldwide rights, title and interest in and to the
+Intellectual Property associated with the Sitecore Software shall remain solely
+and exclusively with Licensor or with third parties that license modules included
+with the Sitecore Software. Licensee shall retain intact all applicable
+Licensor copyright, patent and/or trademark notices on and in all copies of the
+Sitecore Software. All rights, title, and interest in Sitecore Software not
+expressly granted to Licensee in this Agreement are reserved by Licensor.
+"Intellectual Property" as used in this Agreement means any and all patents,
+copyrights, trademarks, service marks and trade names (registered and
+unregistered), trade secrets, know-how, inventions, licenses and all other
+proprietary rights throughout the world related to the authorship, origin,
+design, utility, process, manufacture, programming, functionality and operation
+of Sitecore Software and its Derivative Works, any product containing any
+components of the Sitecore Software, all documentation (electronically stored
+or otherwise), including manuals and marketing materials, regarding the
+Sitecore Software, and any Confidential Information associated with the
+Sitecore Software. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style=&#39;margin-left:22.5pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt;1.3
+Confidential Information: &lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt; &lt;/span&gt;&lt;/b&gt;&lt;span lang=EN-GB
+style=&#39;font-size:10.0pt&#39;&gt;The term
+"Confidential Information" shall include any information, whether tangible or
+intangible, including, but not limited to, techniques, discoveries, inventions,
+ideas, processes, software (in source or object code form), designs,
+technology, technical specifications, flow charts, procedures, formulas, concepts,
+any financial data, and all business and marketing plans and information, in
+each case which is maintained in confidence by the disclosing party
+("Disclosing Party") and disclosed to the other party ("Recipient") hereunder.
+The failure by the Disclosing Party to designate any tangible or intangible
+information as Confidential Information shall not give Recipient the right to
+treat such information as free from the restrictions imposed by this Agreement
+if the circumstances would lead a reasonable person to believe that such
+information is Confidential Information. &amp;nbsp;&amp;nbsp; Confidential Information
+does not include information which Recipient documents (a) is now, or hereafter
+becomes, through no act or failure to act on the part of Recipient, generally
+known or available to the public; (b) was rightfully in Recipient's possession
+prior to disclosure by the Disclosing Party; (c) becomes rightfully known to
+Recipient, without restriction, from a source other than the Disclosing Party
+and without any breach of duty to the Disclosing Party;&amp;nbsp; (d) is developed
+independently by Recipient without use of or reference to any of the
+Confidential Information and without violation of any confidentiality
+restriction contained herein; or (e) is approved by the Disclosing Party for
+disclosure without restriction, in a written document executed by a duly
+authorized officer of the Disclosing Party. Recipient shall hold the
+Confidential Information received from the Disclosing Party in strict
+confidence and shall not, directly or indirectly, disclose it, except as
+expressly permitted herein. Recipient shall promptly notify the Disclosing
+Party upon learning of any misappropriation or misuse of Confidential
+Information disclosed hereunder. Notwithstanding the foregoing, Recipient shall
+be permitted to disclose Confidential Information pursuant to a judicial or
+governmental order, provided that Recipient provides the Disclosing Party
+reasonable prior notice, and assistance, to contest such order.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.4
+Restrictions on Use&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;: Except as
+expressly authorized by applicable law or by Licensor in writing, Licensee
+shall not copy, in whole or in part, the Sitecore Software or documentation, or
+modify, disassemble, decompress, reverse compile, reverse assemble, reverse
+engineer, or translate any portion of the Sitecore Software. Licensee shall not
+rent, lease, lend, distribute, sell, assign, license, or otherwise transfer the
+Sitecore Software, or create Derivative Works of the Sitecore Software.&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.5  Derivative
+Works: &lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;"Derivative Works" as used
+herein means any software program (whether in source code or object code), and
+all copies thereof, developed by or on behalf of Licensee based on or derived
+from any part of the Sitecore Software, including without limitation any
+revision, modification, enhancement, translation (including compilation or
+recapitulation by computer), abridgment, condensation, expansion, or any other
+form in which the Sitecore Software may be recast, transformed or adapted, and
+that, if prepared without Licensor&#39;s authorization, would constitute a patent,
+copyright or trade secret infringement of the Sitecore Software, or would
+otherwise constitute an unauthorized use of Licensor's Confidential
+information. In the event any such Derivative Works are created, Licensor shall
+own all right, title, and interest in and to such Derivative Works. If, under
+the operation of local law or otherwise, Licensee or such third party comes to
+have any rights associated with such Derivative Works, Licensee hereby and shall
+automatically assign all such rights to Licensor for no additional
+consideration. For avoidance of doubt, Licensor shall claim no intellectual
+property interest or legal interest of any kind in any code created by Licensee
+to facilitate its authorized use of the Sitecore Software so long as the
+creation of such code does not constitute a Derivative Work or violate any other
+provision of this Agreement. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.6
+Third Party Use and Rights: &lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;Licensee
+may authorize third parties to assist Licensee in the management, editing, and
+hosting of web based content created by use of the Sitecore Software, provided
+that: (1) such activities are within the scope of the activities Licensee is
+itself authorized to perform under this Agreement; (2) such third party's acts
+are primarily for the direct or indirect benefit of Licensee; and (3) such
+third parties are not charged a fee by Licensee for such activities. Licensee
+is prohibited from using the Sitecore Software as an Application Software
+Provider, or in any time-sharing or other commercial arrangement of any kind
+that makes the Sitecore Software available to third parties primarily for the
+third party's own uses. Except as expressly stated in this Agreement, no third
+party has any rights under this Agreement. Licensee is fully liable to the
+extent allowed by law for any unauthorized use of the Sitecore Software by
+third parties caused by any acts or omissions of Licensee. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:.3in;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;1.7
+Transmission of Limited Licensee Data&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;:
+The Sitecore Software periodically transmits the following information to a
+server maintained by Licensor: License Key ID, licensee name, hostname
+(Licensee's website URL), host IP, and directory installation path. This
+information is used by Licensor to send periodic communications to Licensee
+relevant to use of the Sitecore Software, and to verify that the Sitecore
+Software is being used in authorized locations only. Licensee expressly
+consents to the transmission of such information. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;2. &lt;u&gt;Limited Warranties&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;: &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:22.5pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;2.1
+Licensor's Limited Warranty&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;: Licensor
+expressly warrants that the Sitecore Software provided to Licensee will work
+for a period of ninety (90) days following the effective date of this Agreement
+according to &lt;/span&gt;&lt;span lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt;the then current functional,
+operational, and/or performance capabilities of the Sitecore Software&lt;/span&gt;&lt;span
+lang=EN-GB style=&#39;font-size:10.0pt&#39;&gt; &lt;/span&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;as
+set forth in the Sitecore Developer Network. In the event any such Sitecore
+Software does not operate according to these capabilities during this Limited
+Warranty Period, Licensor shall repair or replace the Sitecore Software and
+such repair or replacement shall be Licensee's sole and exclusive remedy.  &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-top:0in;margin-right:0in;margin-bottom:10.0pt;
+margin-left:22.5pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;2.2&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt; &lt;b&gt;&lt;span lang=EN-GB&gt;Virus/Malicious Code Warranty&lt;/span&gt;&lt;/b&gt;&lt;span
+lang=EN-GB&gt;: &lt;/span&gt;&lt;/span&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt;Licensor and Licensee
+warrant that they will use commercially reasonable virus and malicious code
+detection software programs to test any electronic files, including electronic
+communications, prior to any delivery or upon receiving such communications and
+that the parties will continue to take such steps with respect to exchanging
+electronic files and communications pursuant to this Agreement. In the event
+either party detects any computer virus or malicious code it shall immediately
+notify the other party and where possible shall promptly provide revised
+replacement files in the event any such computer virus or malicious code is
+detected. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;3. &lt;u&gt;DISCLAIMER OF WARRANTIES&lt;/u&gt;: EXCEPT AS
+EXPRESSLY SET FORTH IN SECTION 2 ABOVE, THE SITECORE SOFTWARE AND THE ASSOCIATED
+DOCUMENTATION ARE SUPPLIED TO LICENSEE &amp;quot;AS IS." LICENSOR (DEFINED IN THIS
+SECTION AS LICENSOR'S PARENT, AFFILIATES, SUBSIDIARIES, DISTRIBUTORS AND THEIR
+RESPECTIVE OFFICERS, DIRECTORS AND EMPLOYEES) MAKES NO WARRANTY, EXPRESS OR
+IMPLIED, AS TO THE SITECORE SOFTWARE,  THE ASSOCIATED DOCUMENTATION, THE
+OPERATION OF THE SITECORE SOFTWARE, THE SITECORE MAINTENANCE PROGRAM, OR ANY
+OTHER GOODS OR SERVICES RENDERED BY LICENSOR TO LICENSEE, INCLUDING BUT NOT
+LIMITED TO, ANY IMPLIED WARRANTIES OF MERCHANTABILITY, PERFORMANCE, ACCURACY,
+NON-INFRINGEMENT, FITNESS FOR A PARTICULAR PURPOSE AND ALL WARRANTIES ARISING
+FROM COURSE OF DEALING OR USAGE OF TRADE. LICENSOR EXPRESSLY DISCLAIMS ANY AND
+ALL EXPRESS, IMPLIED OR STATUTORY WARRANTIES THAT THE SITECORE SOFTWARE WILL
+RUN PROPERLY ON ANY HARDWARE, THAT THE SITECORE SOFTWARE WILL MEET LICENSEE'S
+REQUIREMENTS OR OPERATE IN THE COMBINATIONS WHICH MAY BE SELECTED FOR USE BY
+LICENSEE, OR THAT THE OPERATION OF THE SITECORE SOFTWARE WILL BE UNINTERRUPTED
+OR ERROR FREE, OR THAT ALL ERRORS WILL BE CORRECTED. LICENSOR MAKES NO EXPRESS
+OR IMPLIED WARRANTY OF ANY KIND REGARDING ANY SEPARATELY LICENSED SOFTWARE THAT
+MAY BE USED WITH THE SITECORE SOFTWARE.&lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;4. &lt;u&gt;LIMITATION OF LIABILITY&lt;/u&gt;: LICENSOR (DEFINED
+IN THIS SECTION AS LICENSOR'S PARENT, AFFILIATES, SUBSIDIARIES, DISTRIBUTORS
+AND THEIR RESPECTIVE OFFICERS, DIRECTORS AND EMPLOYEES) SHALL NOT BE LIABLE TO
+LICENSEE OR ANY THIRD PARTY FOR ANY INDIRECT, INCIDENTAL, SPECIAL,
+CONSEQUENTIAL, PUNITIVE, OR EXEMPLARY DAMAGES ARISING OUT OF OR RELATED TO THIS
+AGREEMENT UNDER ANY LEGAL THEORY, INCLUDING BUT NOT LIMITED TO, LOST PROFITS,
+LOST DATA OR BUSINESS INTERRUPTION, THE COST OF RECOVERING ANY DATA,
+INFRINGEMENT, OR THE COST OF SUBSTITUTE SOFTWARE, EVEN IF LICENSOR HAS BEEN
+ADVISED OF, KNOWS OF, OR SHOULD HAVE KNOWN, OF THE POSSIBILITY OF SUCH DAMAGES.
+LICENSOR'S AGGREGATE LIABILITY UNDER THIS AGREEMENT SHALL NOT EXCEED THE AMOUNT
+OF FEES (NOT INCLUDING MAINTENANCE PROGRAM CHARGES) PAID BY LICENSEE FOR USE OF
+THE SITECORE SOFTWARE UNDER THIS AGREEMENT. LICENSOR WILL NOT BE LIABLE FOR
+DELAYS OR FAILURES IN PERFORMANCE OF THE SUPPORT OR ANY OTHER SERVICES CAUSED
+BY FORCES BEYOND ITS CONTROL OR ANY FORCE MAJEURE EVENT SUCH AS ACT OF
+TERRORISM, LOSS OF POWER, ACT OF GOD, OR SIMILAR OCCURRENCE OR FOR DAMAGES
+CAUSED BY LICENSEE'S FAILURE TO PERFORM ITS OBLIGATIONS UNDER THIS AGREEMENT.
+THE LIMITATION PROVISIONS OF THIS SECTION SHALL BE APPLICABLE TO ANY CLAIM
+FILED BY LICENSEE ARISING OUT OF OR RELATING TO ANY SEPARATELY LICENSED
+SOFTWARE THAT MAY BE USED WITH THE SITECORE SOFTWARE. &lt;/span&gt;&lt;/b&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;5. &lt;u&gt;Sitecore Maintenance Program&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;b&gt;&lt;u&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;:&lt;/span&gt;&lt;/u&gt;&lt;/b&gt;&lt;span style=&#39;font-size:10.0pt&#39;&gt; The
+Sitecore Maintenance Program includes Upgrades and support.&amp;nbsp; Upgrades are
+free of charge for as long as Licensee is enrolled in the Maintenance Program. 
+&lt;/span&gt;&lt;span lang=EN-AU style=&#39;font-size:10.0pt&#39;&gt;Licensee&lt;/span&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt; will automatically be included in the Maintenance
+Program and will be charged an annual fee of 20% of the listed cost of all
+software purchased.&amp;nbsp; &amp;nbsp;The Maintenance Program &lt;/span&gt;&lt;span
+lang=EN-AU style=&#39;font-size:10.0pt&#39;&gt;is free of charge for the first year after
+the initial purchase of Sitecore Software.  &lt;/span&gt;&lt;span lang=EN-GB
+style=&#39;font-size:10.0pt&#39;&gt;Three years after the date of the initial purchase and
+each three-year anniversary thereafter, Licensor may adjust the Maintenance
+Program charge then in effect for all software purchased under this Agreement
+to 20% of the Licensor's then-current retail prices.&lt;/span&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;&amp;nbsp; Licensee may cancel the Maintenance Program by
+providing Licensor with 60 days notice prior to the end of any 12-month
+Maintenance Program period.&amp;nbsp; Licensor may cancel the Maintenance Program
+upon Licensee's failure to pay timely any applicable Maintenance Program charge. 
+A cancelled Maintenance Program may not be renewed except upon payment of
+double the amount of fees that would have been paid during the lapsed
+period.&amp;nbsp; &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;6. &lt;u&gt;Upgrades and Patches of Sitecore Software&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;: "Patch" as used in this Agreement means a specific,
+targeted fix to a discrete problem in the use or functionality of the Sitecore
+Software that Licensor in its sole discretion defines to constitute a "Patch"
+and may from time to time provide to Licensee. "Upgrade" as used in this
+Agreement means a new version of some or all of the Sitecore Software, or an
+improvement in the use or functionality of the Software more substantial than a
+Patch, that Licensor in its sole discretion defines to constitute an "Upgrade"
+and may from time to time provide to Licensees enrolled in the Sitecore
+Maintenance program. Licensee expressly acknowledges that Upgrades and Patches
+may change functionality of the Software and integration with other systems,
+and may not work with some or all of the Sitecore Software modules, or be
+backward compatible with earlier versions of Sitecore Software. Installation of
+Patches and Upgrades is the choice and responsibility of Licensee. To the
+extent that operation of the Sitecore Software is affected by problems in
+standard software, including, but not limited to, Microsoft Internet Explorer,
+Windows and the Microsoft.Net, then Licensee shall install updates to such
+standard software per Licensor's specifications in order to resolve these
+issues. Licensor has no control over such standard software, and cannot assure
+that problems with such standard software will be corrected, or that such
+corrections will be made in a timely manner. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;7.  &lt;u&gt;Waivers&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span style=&#39;font-size:
+10.0pt&#39;&gt;: All waivers must be in writing and signed by authorized
+representatives of the parties. Any waiver or failure to enforce any provision
+of this Agreement on one occasion shall not be deemed a waiver of any other
+provision or of such provision on any other occasion. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;8.  &lt;u&gt;Severability&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;: If any provision of this Agreement is adjudicated to
+be unenforceable, such provision shall be deemed changed and interpreted to
+accomplish the objectives of such provision to the greatest extent possible
+under applicable law and the remaining provisions shall continue in full force
+and effect. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;9.  &lt;u&gt;Assignment&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;: Licensee may not assign this Agreement. Licensor may
+assign this Agreement to a successor (whether by merger, a sale of all or a
+significant portion of its assets, a sale of a controlling interest of its
+capital stock, or otherwise) that agrees to assume Licensor's obligations under
+this Agreement. Any attempted assignment or transfer in violation of this
+Section shall be void and of no force or effect.&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;10. &lt;u&gt;Entire Agreement&lt;/u&gt;&lt;/span&gt;&lt;/b&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;: This Agreement, and any attachment that is expressly
+incorporated in this Agreement, constitutes the entire agreement between the
+parties regarding the subject matter hereof and supersedes all prior or
+contemporaneous agreements, understandings and communications, whether written
+or oral. This Agreement may be amended only by a written document signed by
+both parties. In the event of a conflict between any provision of this
+Agreement with any other attachment or document, this Agreement shall control. &lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=Default style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;span
+style=&#39;font-size:10.0pt&#39;&gt;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p class=MsoNormal style=&#39;margin-bottom:10.0pt;text-align:justify&#39;&gt;&lt;span
+lang=EN-GB style=&#39;font-size:8.0pt&#39;&gt;Sitecore License Agreement. May 5, 2011&lt;/span&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+</License>
+      <Comment />
+      <Attributes />
+      <Readme>Sitecore Calendar Module Installer
+==================================
+
+NOTE: Please choose the 'restart client' option 
+      on the final step of this wizard.
+
+YOU MUST PERFORM ADDITIONAL ACTIONS AFTER THIS
+INSTALLATION.
+
+Please see more information below.
+
+Click "Copy to Clipboard" below to save these 
+instructions for later.
+
+Post-Installation Steps
+=======================
+
+1. Add the following module to the configuration\system.webServer\modules section of the web.config file.
+   &lt;add name="CalendarScriptModule" type="Sitecore.Modules.CalendarScriptModule, Sitecore.Calendar"/&gt;
+
+2. Perform an incremental publish of your site to 
+   complete the installation.</Readme>
+      <Publisher>Sitecore Corporation</Publisher>
+      <PostStep>Sitecore.EventCalendar.Configure.AddInstall, Sitecore.Calendar</PostStep>
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/sitecore.calendar.dll</x-item>
+        <x-item>/sitecore/shell/controls/modules/sitecore.eventcalendar/calendar.configurecontrols.xml</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/controls/calendarpopup.aspx</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/add.gif</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/add_gray.gif</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/blank.gif</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/calendar.bmp</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/calendar.png</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/indicator.gif</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/images/no9x9.gif</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/scripts/pngbehavior.htc</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/black/black.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/blue/blue.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/brown/brown.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/burgundy/burgundy.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/calendar.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/colors.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/gray/gray.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/green/green.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/pink/pink.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/red/red.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/violet/violet.css</x-item>
+        <x-item>/sitecore modules/shell/sitecore.calendar/themes/yellow/yellow.css</x-item>
+        <x-item>/App_Config/Include/calendar.config</x-item>
+        <x-item>/sitecore/shell/VirtualPreviewCalendar.aspx</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>files</Name>
+    </xfiles>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/content/Calendar Events/{C332D9C3-B3D8-4D30-A174-C706B3346407}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - Calendar Events Root</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/{EAEE74AC-84C9-4C45-BC49-4874F2C1DD55}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/AgendaView/{15CA9BAF-A481-4C28-91E8-DDC005F7D742}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/CalendarSelector/{4D8BBFBC-9143-4DB7-8382-261064CA531D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/DateSelector/{73C5D583-3D76-4DA0-A263-D8D257D84F09}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/DayView/{76C9D153-D740-422F-9503-FDBC09025C5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/MiniCalendar/{A285A8E1-1FB3-4E53-ACEE-5F9E79E3E9CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/MonthView/{7DD267E1-A5D0-4A65-98C3-170D833FAA9C}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/ProgressBar/{724C78CE-B424-46D5-8B63-DA6D427172AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Calendar/WeekView/{966128D4-B7AB-4180-8EA9-5A84A19D909F}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - Layouts</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/media library/Calendar/{130BE038-84D7-4F4A-8465-D48126DEEDE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Icons/{949EDD2E-4585-462A-B636-243D58BBF6B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Icons/add/{13B57001-E42A-4025-A925-4E238C304AA3}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Icons/add_gray/{94F6525C-BE02-4478-B668-613B902F1D85}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Icons/form_blue_edit/{13E9B78F-4CA1-4794-A605-2844DF5B3838}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Icons/indicator/{24CE0437-E169-4687-8082-7372F94B4362}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/{210EFBAB-1C75-44B6-BF03-AF3C564926F5}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/AgendaViewThumb/{45D4ED1F-468A-4BF6-9C22-8AF51200E1BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/CalendarSelectorThumb/{08E5D0F9-6BA1-489E-9756-E69073C9AFA2}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/DateSelectorThumb/{E8DD6C11-5063-42DC-A5AF-0400449829E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/DayViewThumb/{22D5C826-85AB-473C-AB63-147102A5DE59}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/MiniCalendarThumb/{F0667B24-03FE-478A-B903-A6AAE44B6A2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/MonthViewThumb/{B63AC2AB-313A-45C6-9ADE-FBBC28FA5569}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/ProgressBarThumb/{6914B022-AC67-4641-ACF4-9B9A43976C23}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Calendar/Thumbnails/WeekViewThumb/{DE5FC180-6B2B-4189-A15A-C0172D551850}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - Images</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/system/Modules/Calendar/{C337C648-8385-4873-8369-6D928EF196F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/{3761523C-5E9A-4B0C-A99C-D479826E2E9D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Agenda Start Date/{4895F5A9-B208-44E9-B5B6-9C3C066F6108}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Agenda Start Date/Selected Date/{0C760370-1FB1-4767-B91C-C43743D863D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Agenda Start Date/Today/{E1E5701B-5982-418D-8669-80F65DAC8035}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Calendar Selector Format/{EE5A77C5-9016-481A-A9E1-9D29BB5BF101}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Calendar Selector Format/Droplist/{C7AA289B-4E22-4C0E-A29E-202356F99068}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Calendar Selector Format/List of Toggles/{F2A7C494-2274-4121-BDF0-D25E309BAE25}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Calendar Source Database/{0063ED19-6D62-4376-B079-2841041B1330}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Calendar Target Database/{3E713F17-F137-4BE8-950C-9EB8D2B8112E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/{6EE26782-765F-461E-9F13-5D5E5F39301A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/Day Month Year/{6AF2FEF1-6866-463A-85D9-4C353FC8F3A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/Month Day Year/{3B1B9106-FE68-410F-92C9-FDAE0A11ED17}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/Month Year/{60576EB6-CBD2-467C-BF5B-4C002EB3A859}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/Year Month Day/{653D0E74-EB08-450C-BC42-5C9DC2B0BA09}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Date Selector Format/Year Month/{76BA0C3E-D644-467D-B80C-D6430BB04D32}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Date Settings/{03949126-F959-4F60-9751-9C78CED89C3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Date Settings/Start and End Date/{5F74E069-92BA-46B4-B743-247501D8DBAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Date Settings/Start Date Only/{D73B33B2-0C09-475C-ACE4-BA9EA00A656E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Order/{D8B402CF-8293-429C-B541-459C1CF6F102}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Order/Ascending/{2186CC07-9AE7-4C21-9E69-432BC38F853D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Order/Descending/{28BE71A4-98B4-4E8B-9D3A-F3A1AF9C8695}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Overflow Behavior/{45EE4240-C1F1-49D1-B688-4FEB18E95AEC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Overflow Behavior/Show Link/{3963EF45-AFDD-4875-9CFB-1F732FC05B09}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Event Overflow Behavior/Show Scrollbars/{3BD61CFF-4F0A-48BD-BDDB-E5554EB4018B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Mini Calendar Link Behavior/{EB69FB12-67D4-4F94-8841-ACE3D7B4EAA6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Mini Calendar Link Behavior/Redirect/{28491CAE-745B-4352-8217-B9EE51D16D06}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Mini Calendar Link Behavior/Refresh Page/{1CB8C40D-CEDB-4FB3-9304-417D34124D7E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/{8CB69FCF-3571-48E9-87DF-A04862D3E14C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/Daily/{1E84DBD2-7004-4A74-8989-63487B8053E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/Monthly/{F7254CC0-88C1-4498-A284-2421FBFFD328}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/Once/{FDF10901-8A31-4CBA-A456-7C217F2FAF3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/Weekly/{799B319F-299E-4924-B217-F8061BFDA79D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Recurrence Settings/Yearly/{825EABAC-075B-4155-9274-0198F7DCCE83}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/{EE87071A-38F1-470D-9C2C-A4DD513097A2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Black/{D6326C84-627A-4669-8759-DF133C6223A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Blue/{ED001B43-68C9-41F9-BA1C-AA80A02BF4C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Brown/{1FD0540B-E363-4427-B72B-55B67F257180}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Burgundy/{5B26E31A-35DF-4708-99A8-0F32C626E60D}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Custom/{92F65995-395D-4E5A-94D7-82382D0A7F16}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Gray/{48B1D33A-711D-461C-8895-01498C96EDA3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Green/{C1707BCA-BBF0-4C51-94D9-A73631485887}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Pink/{285830F8-5D71-48F3-9435-D000284C3994}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Red/{FEC4E628-1DA4-4BF4-9048-8A36FD3BB765}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Meta Data/Themes/Yellow/{5CB641DE-791B-4733-A52C-DF4FA5664DD0}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Schedules/{57A3F3F0-6277-405B-AAC0-5C957442D1AF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/{DA5662CC-1D7E-4E2E-9985-09F5B2DCE4C1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Agenda View/{66203A50-4205-421F-AF24-E6D9B46F79B7}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Calendar Selector/{7814F570-9B2C-4711-B05E-A4DE0223C0D9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Date Selector/{DCB06C70-3509-423B-B091-CD718CB6A52E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Day View/{EC8797A8-9236-4E66-A119-F190BF7FA259}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Mini Calendar/{1135EC32-8241-45C5-8147-4D781CB670FE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Month View/{B0749CA6-3B88-45B8-9F83-99BCDC6AFDC4}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Progress Bar/{D8195C52-2E58-4B60-BC01-696FA746B632}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Calendar/Settings/Default Week View/{4891A98B-AD78-4076-88B4-651C81BFB262}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - Settings</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Calendar/{3D8766F8-30DC-4C18-8CF8-7A0E9823C6AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/{9824B3FD-7F05-49D1-BA6C-029A42244719}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Calendar Folder/__Standard Values/{6BAA76EA-1C14-41AF-866B-B518A8A8A30F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Calendar Folder/{27744A3C-F559-463B-B163-DE49E10A7B21}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Calendar Folder/Data/{5AE1BDEF-9D3D-4FA1-804C-EA23A9C5CBE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/__Standard Values/{4F194E66-AB3B-4599-A0F4-F12A88561B75}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/{1629F074-3047-462B-9484-8C614AF69050}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/Event List/{33ED333D-2E74-4E15-876F-4ABA6D167C18}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/Event List/Event Box Color/{CE482AA0-2A42-415F-9030-971952FCBAF4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/Event List/Event Edit Icon/{06AEA792-15FF-4C70-BA4C-A1590776381E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/Event List/Event Text Color/{EAAE0F82-0969-47D0-88F1-E775EEFE983B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event List/Event List/Title/{271750FC-2185-4A87-924F-285D346F85B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/__Standard Values/{744371C3-070B-401F-BE58-1D8663FF64AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/{363CE785-127D-421D-B08C-DBC556112DE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/{E2506F6F-29CF-4153-AFFC-471862FA5118}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Description/{970FA513-2090-48B3-AEDB-3DA5B1168CBE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/End Date/{59B2AE9F-83CA-4AC3-B72B-6F89C99D5BCA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/End Time/{91CB6CBC-9420-4ED9-AF1B-87472BA3E3F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Location/{15582525-AB1C-4E39-8394-AD2CF7CF25B0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Related Item/{FD41F799-3C3D-42E2-B8BB-DD0053060CA5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/ScheduleID/{B6A7A1EB-AE63-4AF6-8A29-BB0302EC1A4F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Start Date/{9FA8F783-9BC9-48B4-B054-C26F18C4C1BF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Start Time/{439BAE11-6A89-4ED3-8D92-5CE773ADEFA8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Event/Event/Title/{D877976C-4349-4068-B6E2-5D5D97094E6C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/__Standard Values/{8A43D1EE-D73C-4444-B152-E1C7982BB0E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/{C9687393-733C-4B3D-909B-D1A703FF6518}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/{26894172-9D49-4491-BDCD-2FC2D92CED1D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/End Date/{21712453-404C-45DD-BD5F-D833E74A0EFD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/RecurDaysOfWeek/{FB3CD473-F71C-4CF0-9B50-AD677CC1CABF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/RecurEveryN/{5BD5963E-196D-480C-864E-68C0361D550D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/RecurEveryNSeqOrdinal/{CCF8A533-1948-44AD-8262-E78C3F381B2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/RecurMonthName/{A56E38BB-FDA6-4C21-9B92-C2CCFE6C1B22}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/Recurrence/{9A0635A1-62CD-4F21-B764-CE84F6842600}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Content/Schedule/Schedule/Start Date/{41DF363A-140F-494A-AB0C-0D3197CC23C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/{381D2366-800B-4A1B-A608-68DE949E57CA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Standard Text/{DC7F835D-6E07-4A7E-85F0-79D235630B21}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Standard Text/Standard Text/{7901AD45-8DB7-444C-B4B8-0EDF8A80CC13}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Standard Text/Standard Text/Comments/{A4F2E05B-09CD-49EF-87B1-8561BD499E31}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Standard Text/Standard Text/Text/{D14B276D-7059-41AA-822D-100C5C451E8B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List Item/{B752EB05-A9E9-4AC6-8F76-77A307202783}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List Item/Documentation/{D5A57B27-2771-477E-BD64-774684BB5A5C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List Item/Documentation/Description/{B0339F7B-53B2-4DBE-8EB9-B6ACB34BAAC6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List/{AA7895C2-B06C-4C0D-A415-6505D963E080}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List/Documentation/{EC6F8609-833B-4E7F-88AC-10C525F62C92}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Meta Data/Value List/Documentation/Description/{F4F506BD-4B79-4E6A-B970-B1F778C865B5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/{941A9FE4-1EF5-4C1A-9EAF-C6A0C18FA8E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Agenda View Settings/__Standard Values/{DA09A407-2F03-4460-A408-D2CF2B29E1C7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Agenda View Settings/{EB4B2634-45E2-4A7F-9E24-262850A039F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Agenda View Settings/Calendar Settings/{2540E2C5-8E3D-4254-B3BB-E5F9091D5C54}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Agenda View Settings/Calendar Settings/SiteSettingsPath/{D494FAC3-A123-447D-BF5A-005BDD463474}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Agenda View Settings/Calendar Settings/ViewSettingsPath/{A899A204-5E60-4614-9891-8CF668288E69}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Calendar Selector Settings/__Standard Values/{8F6D7218-D1EE-46D8-9BA8-832E7EFDFC9C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Calendar Selector Settings/{4719E756-6B78-467F-9977-D22F3F7949A7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Calendar Selector Settings/Calendar Settings/{D4C921BC-3D7B-4DA6-B0BF-67B42A13E3D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Calendar Selector Settings/Calendar Settings/SiteSettingsPath/{021C48AA-B757-476F-9A75-56565CD3C4DF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Calendar Selector Settings/Calendar Settings/ViewSettingsPath/{6E9C5674-640D-439F-AD2A-8274CC661F10}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Date Selector Settings/__Standard Values/{92E47903-34D4-4E83-9CC4-62C9950B22F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Date Selector Settings/{249D8FB5-0F41-48F6-86E5-7A47DF32095F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Date Selector Settings/Calendar Settings/{FAE9B82E-3053-4CAB-84A7-A7E8BFB60D7B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Date Selector Settings/Calendar Settings/SiteSettingsPath/{6044A69D-BB3B-421B-8919-C34762B91104}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Date Selector Settings/Calendar Settings/ViewSettingsPath/{64DF3195-27B9-45D5-92BA-BF8E701C2689}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Day View Settings/__Standard Values/{85FAF536-C03E-46E6-9F3C-1DECD937427A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Day View Settings/{F24CB96D-6DB6-4F6C-AFD8-363699F61B27}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Day View Settings/Calendar Settings/{0EE46CF0-86FA-42AD-8A07-4E7B53A1647B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Day View Settings/Calendar Settings/SiteSettingsPath/{BDD0525E-F29D-4E04-859A-224EB244F5F0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Day View Settings/Calendar Settings/ViewSettingsPath/{DC85E36C-FD3D-4CC7-AE97-92AE0BE5E204}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Mini Calendar Settings/__Standard Values/{23D1BC38-4D63-47F3-80D6-64E1840B06FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Mini Calendar Settings/{974599F2-D960-43F6-AE20-67F2369107C3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Mini Calendar Settings/Calendar Settings/{FBC2AD1F-BDE6-4923-8454-493C21D5BDDC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Mini Calendar Settings/Calendar Settings/SiteSettingsPath/{440A9A79-CAD0-4312-B82F-093651B8690B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Mini Calendar Settings/Calendar Settings/ViewSettingsPath/{ABA78B3C-6018-49F5-8602-86C07F7D87DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Month View Settings/__Standard Values/{CB096F7C-6710-4032-85BB-5FE13B003C31}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Month View Settings/{79645C69-CEA4-4DE1-9BB3-14ADD5142212}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Month View Settings/Calendar Settings/{AC9B477F-C6F4-4370-8A34-EDFF4F14969F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Month View Settings/Calendar Settings/SiteSettingsPath/{F0E2DBC4-59B6-4B97-8546-AFEC748199BB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Month View Settings/Calendar Settings/ViewSettingsPath/{E3EDDEBA-DF46-4DE6-BA71-FC813D26D65A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Progress Bar Settings/__Standard Values/{79917C4D-5B95-4026-B60A-79933D6CFE13}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Progress Bar Settings/{6675B7C3-2363-4C27-86B7-DFC8019761A9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Progress Bar Settings/Calendar Settings/{03F4101E-02D9-4468-8156-ACB1D04E9232}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Progress Bar Settings/Calendar Settings/SiteSettingsPath/{27655D8C-2D81-4B59-9C9B-589C0E5885E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Progress Bar Settings/Calendar Settings/ViewSettingsPath/{9C98F1AC-EA3E-4B85-91F3-5B720CCB2B8D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Week View Settings/__Standard Values/{9FDD62DA-FB59-4B87-857F-63E1391D237F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Week View Settings/{C495FF97-B360-404D-A736-886F1439D58A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Week View Settings/Calendar Settings/{485F34AA-54A7-4F86-ABF9-3FDA28E9E165}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Week View Settings/Calendar Settings/SiteSettingsPath/{85E899D4-6DFC-4BB8-BF3F-23D8F55BFFE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Renderings/Week View Settings/Calendar Settings/ViewSettingsPath/{012E028D-CE72-4A2F-8D68-1073E49EE98E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/{C2E94EE7-F9E8-4175-8860-D56C5EC8734B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/__Standard Values/{CBD0514C-2EC3-42F3-8149-ACAC1CEA8282}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/{BF8338C9-5090-4917-A883-57F91547B458}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/{2DCE9916-27C1-401A-AA0B-818CED7C9294}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Date Format/{45013B2E-C8EF-454C-8902-7DAB4FDBBF49}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Event Limit/{575917FB-3A99-43C1-82E7-889B7B0CE6C5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Margin/{6198402D-144A-4325-87E3-A314844F3261}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Show Event Date/{6353E6C5-E557-46C3-928A-0686244BE475}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Show Event Time/{E0906074-F90F-433D-8DCB-B158E624A3EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Start Date/{039D1A0B-5643-4296-971C-6A600034634F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Agenda View/Title/{8AC26C5D-18BA-4D5B-ADE0-FAD3D52E022D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Calendars/{AA6131B3-B9DC-4F50-BAEC-B01773AE7E2F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Calendars/Calendar List/{56218C87-5C4A-4906-8A96-130E12D98301}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Agenda View/Calendars/Show All/{DE844E59-7B5B-4FB2-AE9B-26C5E7E3833E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/__Standard Values/{ACAE70D4-9932-4474-AF0E-8D3D075534F1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/{CA6CAF44-45E1-4934-9BAE-A5D4316F5070}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Calendars/{7CB1DF54-E2E5-44B1-838F-8E1B0ACF5B01}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Calendars/Calendar List/{95BA5005-92FE-4DD2-9EFB-A8F4A74120E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Calendars/Show All/{A599E6FC-3C36-4C54-849B-F4BDCAB39B29}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Selector Settings/{17FB1955-32B7-458A-89DE-CE638CB6DAF2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Selector Settings/Format/{4BCD2A20-E7BA-4F55-9AC4-D5F40F6DEBBD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Selector Settings/Link Text/{F51B5A74-E2A0-48BB-8B49-FCB35EA9391C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Selector Settings/Margin/{AE91515B-D89E-4FB4-BBB8-5E172FB01369}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Calendar Selector/Selector Settings/Title/{F3BD85D9-063F-4A44-BBF5-DC2AF7782933}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/__Standard Values/{3E9236AC-50C4-4497-9C8A-54136C7A0B59}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/{15F3EC75-3157-4725-850A-38988632AE01}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/{0505095E-DB8A-4543-8DEE-A872ADC7DEEF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/Format/{B09E2848-C1E9-4D14-8735-1598CD23499C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/Link Text/{3532852A-C221-405C-80A2-0DED9B593CE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/Margin/{F2BBBCA8-A1BB-4756-A4C1-1F74D98433D1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/Title/{B1972B04-68DC-46F6-A8CA-E9CB528C7F0E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Date Selector/Selector Settings/Today Link Text/{71BF72B6-AEEE-4DDD-8337-3A6A203DD6D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/__Standard Values/{0EDFB0DD-08DE-4263-8B74-EEC70D0634FC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/{2DE46E57-57DB-45C2-A5CE-801830F2BB14}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Calendars/{876C06BA-AE24-43E1-89FF-E5BECB0598FF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Calendars/Event Branch/{D9B4B174-9294-4C0C-AF60-B21594D0CD03}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/{039CFEC5-FD8E-432E-87C5-0EF6F3FF6E3A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Header Format/{104951D1-CB14-483C-90E1-43829024E3D4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Margin/{B29774C5-5F6A-4D23-A205-0653F3B84C3B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Number of Hours Displayed/{B8A187AC-5046-4EC3-B3AD-A42928C6E27A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Return to Month View/{C8EF0411-A3D4-4E31-8ED8-0AC3398D7053}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Return to Week View/{A1473860-E122-4B1B-9269-5B2E1D049B6F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Day View/Day View/Start Hour/{56C8BA4F-A1F1-4DE3-877B-DF365AA1E84E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/__Standard Values/{EFEF4CF2-26B5-4870-908B-E83DEAAAC809}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/{CE7ED447-D1B0-423E-8CA4-219233BC0373}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Calendars/{60ABDDE5-2F49-4195-BC10-64E721EB5682}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Calendars/Calendar List/{BFDD91B7-7D7F-4FF8-AB95-F49072560126}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Calendars/Show All/{5AB59BFA-A64A-489C-9D78-35822D285530}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Settings/{FFF22082-C4D0-4E38-ABD0-6B82C2453220}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Settings/Link Behavior/{5C197E1B-581E-4260-A30B-39DA3BE54C76}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Settings/Margin/{19B574AC-8AF1-47D4-9909-BB8E86CF9218}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Settings/Redirect To/{B76377DC-F549-4739-85B2-0D42C6F3E700}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Mini Calendar/Settings/Title/{BE91BDF7-996D-4F6E-94DC-7DC707DC8E1F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/__Standard Values/{FBBA2F4A-D1DC-4E02-AD6C-683A46E253ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/{3F74EFC7-C26B-4A0F-B365-07943F0DF06C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Calendar/{B32B1BE0-8ECC-4810-B635-194D5A050FC4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Calendar/Event Lists Folder/{DAF5C14D-B301-4DB9-BEB1-81618F490880}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Calendar/Schedules Folder/{116F0F45-66FB-4522-AC04-ED297DCD61D3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Calendar/Theme/{EFF98F98-F536-49AB-B682-F049F15ACF7A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/{64FBBC3F-1F4A-4461-AC23-8474A9BC2DC7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Agenda View/{FDD24E4D-B04E-4D89-8C90-CCF098F6235A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Calendar Selector/{CC29F8E7-A553-4C67-9EF8-A3C24C87AA01}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Date Selector/{BA4E7C57-8F68-4E29-98E0-B1B153CDA6E6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Day View/{D4CBED3E-17C2-475C-AE89-978D439D7594}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Mini Calendar/{545902A5-D1A6-48F4-B7B0-7A72FE7142FF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Month View/{C3CC4A82-B212-4513-9B51-41F208FE0DF6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Progress Bar/{89838690-9A46-43D7-A257-09E4A6BBFB77}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Module Settings/Default Settings/Week View/{3C972D4E-B3AF-43BA-A93F-96ED4D0A6BEA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/__Standard Values/{64367E2D-FE0A-4E86-A2DE-27423ADE9FE9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/{8F04AD22-7308-4E41-94F8-07680F580DB7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Calendars/{EFC34958-F918-460E-9EFE-D84B4CAE7842}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Calendars/Event Branch/{0F1C6AF9-3E06-4996-A9A7-E4850175C08A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/{F70DD89A-4CAD-4505-A431-99BDD8AA91CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Add Event Icon/{D3432C8F-1D51-4F43-893E-9C9F68487599}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Alt Add Event Icon/{87B0C5F1-6956-4392-86F3-3D135778E3F2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Event Limit/{70C1B1CF-B7A5-4B13-AC5E-938F1E93B801}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Event Overflow Link Text/{7E42C5C0-591B-4819-838B-EF99758E362A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Highlight Weekends/{BA8509B8-C5A2-418C-81B0-52DCEA46C7A3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Margin/{2E87BD48-FCEB-48CB-90CB-5758D9E9AE5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Month View/Month View/Show Event Time/{057094B2-E218-479B-AEBA-90CC0849833E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Progress Bar/__Standard Values/{4972CC72-6787-4D3F-9F1C-34C0BF006815}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Progress Bar/{AE36D34A-7467-4D6C-A49F-6AD31A2A3FA1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Progress Bar/Appearance/{33404B13-61D8-4DCC-B4ED-5CFA8BD50B7E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Progress Bar/Appearance/Image/{B65EE379-EA59-43B6-9FF7-79D1AF061D3C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Progress Bar/Appearance/Text/{618CBE7B-F7EA-4159-82A4-8F96E699FD61}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/__Standard Values/{BEEB2FF0-66BB-405C-94BE-127719DAE2DC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/{D73A429A-CEE8-413D-BC18-502CAC7E9C30}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Appearance/{ED5DCC78-52BA-40D5-AC60-505CC88DB292}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Appearance/Recurrent Event Prefix/{569DD5C7-956A-4814-9318-E647FD14EFF6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Appearance/Recurrent Event Suffix/{0FF5D32B-D08D-4EC1-B791-7FB458DB94B3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Appearance/Show Header/{6508A5FB-9BB0-498A-ACEC-E3087C8853BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Appearance/Switch View Mode/{831DFB7A-D4A3-48A2-AA9E-20469F60A6C9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Calendars/{67626A31-0B16-461D-A656-D4F5512793A1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Calendars/Calendar List/{9B56047F-805F-4F62-A2D7-E984A84574D0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Standard View Settings/Calendars/Show All/{BC9020D8-144D-4056-863C-D34954F4E99E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/__Standard Values/{471F421A-F11A-4BE1-9555-10F735DB78E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/{14EA21D0-7675-4EB8-AE56-99EEFC99724D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Calendars/{A142F202-A931-4E7D-AE15-A74BD7730368}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Calendars/Event Branch/{1D8211E5-BDD6-4D51-90C7-2A57E3B5BC85}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Week View/{6F39BE24-EBF1-43A3-A27F-290E9A0D432E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Week View/Header Format/{0FEAE3C3-4BC8-48D3-B4AF-53997DB8AC01}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Week View/Margin/{93702B2C-E745-48E3-92B1-48D3B3B7283C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Week View/Number of Hours Displayed/{39012E14-95BA-4B49-BE74-1BB2CBD50049}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Calendar/Settings/Week View/Week View/Start Hour/{39529761-8F56-44EA-AEC1-C91D9F195B80}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - templates</Name>
+    </xitems>
+    <xitems>
+      <Entries>
+        <x-item>/core/sitecore/content/Applications/Calendar ConfigureControls/{6EF39D29-0A79-43EE-828E-C3B54568C5D2}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/Content Editor/Ribbons/Chunks/Layout/Calendar Controls/{5714A834-6B7C-40D3-A1A7-3391B794CD5A}/invariant/0</x-item>
+        <x-item>/core/sitecore/layout/Layouts/Modules/Calendar/{14C36FBF-1E75-45EA-86CE-5D1E7B122C09}/invariant/0</x-item>
+        <x-item>/core/sitecore/layout/Layouts/Modules/Calendar/Calendar ConfigureControls/{1055D70B-7797-424C-BA03-CED291534DE3}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Core - Items</Name>
+    </xitems>
+    <accounts>
+      <Entries>
+        <x-item>roles:extranet\Calendar Update Visitor</x-item>
+        <x-item>roles:sitecore\Calendar Administrator</x-item>
+      </Entries>
+      <Converter>
+        <AccountToEntryConverter>
+          <Transforms />
+        </AccountToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Roles</Name>
+    </accounts>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Branches/Calendar/{7E0044F3-3B91-4635-9B0E-8100941ED268}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Agenda View Settings/$name/{D8616FD3-3FD3-4F9D-B017-BEA5232EA875}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Agenda View Settings/{39A58F35-C419-4DB3-91F2-6D956373D159}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar List/$name/{4FBDB7D5-0887-40BA-AA20-ADA730C5C86D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar List/{165AC42C-B3EB-403B-93B2-7DADA7FA86EC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar Selector Settings/$name/{2A045B00-4BE7-41AD-8CEE-21386EAF9436}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar Selector Settings/{F412418E-8581-4565-93ED-7CBCB918A98F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar Text/$name/{0B059B60-7D09-410A-B622-779391337E07}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Calendar Text/{055F952E-7D90-40F2-8098-625B9915E54D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Date Selector Settings/$name/{636E6AAD-7804-457C-BCF0-70F16DC82B79}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Date Selector Settings/{C997A358-79C9-46FB-A7D5-9749A925F228}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Day View Settings/$name/{97AFE972-A059-4AE1-B5ED-1848E107B8B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Day View Settings/{A3FED472-2342-4E2B-BA97-205C68C7651D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Day/$name/{BDE2BEBB-91F6-45CB-9229-121EF3E2B955}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Day/{EA682C53-74F0-4E6B-B9D1-FC785907E551}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Event List/$name/{BFCAD113-A33F-4058-8458-A84AC965547B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Event List/{E5928DAB-BCA7-4240-8134-2FFE8C0A02DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Event/$name/{897D52A4-6DB4-444C-A024-5DD5BC876948}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Event/{9D792745-B9F3-480B-B84D-BFDAB341C5B2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Mini Calendar Settings/$name/{FAEEFBF1-7407-4494-A6FE-97C404D74D5E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Mini Calendar Settings/{EC56B841-0385-4FF7-88D7-97F5A6455EE4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Module Settings/$name/{E0665659-208C-407D-B952-8C0C650D3011}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Module Settings/{74227FFC-8311-4D24-84F0-6C2BE1961E2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Month View Settings/$name/{5EB0F020-BB72-41C9-9A45-3965D5E2C0F6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Month View Settings/{ED150FB2-C2AE-44CD-A6CC-A7A9A50704AC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Month/$name/{1FB06932-3A34-4264-81F8-A65667FDFA06}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Month/{CFEE5B02-130A-4DA8-A4B3-96E678FE1B72}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Progress Bar Settings/$name/{35EBEEFB-6772-4797-8FCD-7FE02AFB0A35}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Progress Bar Settings/{7E82FDB8-D0A2-44FF-9EFB-FB25486057EB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Schedule/$name/{2F4AFA3C-0351-4E0F-9CB9-F684D75BBF9A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Schedule/{5E261CED-71D8-4C49-B40B-FDA17C2BFB2F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Value List/$name/{3F3A4F3C-363C-4953-AD71-57D7785697A5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Value List/{40156D0A-6611-4DD9-82C1-97F72499D362}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Value/$name/{8895CF01-E5A4-41DE-8018-E8434C14491C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Value/{70627538-1004-4211-9B2E-10119730B8CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Week View Settings/$name/{886B2CE3-0071-46FB-BA3F-B34278EE5A2C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Week View Settings/{78194755-CCFD-41E3-BBC6-737D72141F2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Year/$name/{4CD09903-DCE7-463D-8420-0CD763864573}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Calendar/Year/{42C09E1D-7F03-45FC-9D79-19C468235D59}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Master - Branches</Name>
+    </xitems>
+    <files>
+      <Root>/sitecore modules/Shell/sitecore.calendar/Scripts</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.js</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>scripts</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules/Shell/sitecore.calendar/Controls</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.ascx|*.aspx</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>controls</Name>
+    </files>
+    <files>
+      <Root>/sitecore modules/Web/sitecore.calendar/Logic/Services</Root>
+      <Converter>
+        <FileToEntryConverter>
+          <Root>/</Root>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include>
+        <FileNameFilter>
+          <Pattern>*.asmx</Pattern>
+          <AcceptDirectories>False</AcceptDirectories>
+        </FileNameFilter>
+        <FileDateFilter>
+          <FilterType>CreatedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+        <FileDateFilter>
+          <FilterType>ModifiedFilter</FilterType>
+          <ActionDateTo />
+          <ActionDateFrom />
+          <NotOlderThan />
+        </FileDateFilter>
+      </Include>
+      <Exclude />
+      <Name>webservices</Name>
+    </files>
+    <items>
+      <Database>core</Database>
+      <Root>{504AE189-9F36-4C62-9767-66D73D6C3084}</Root>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms />
+        </ItemToEntryConverter>
+      </Converter>
+      <Include>
+        <ItemNameFilter>
+          <Pattern>CLD</Pattern>
+          <FilterSearchType>Simple</FilterSearchType>
+        </ItemNameFilter>
+      </Include>
+      <Exclude />
+      <Name>__Dictionary</Name>
+    </items>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

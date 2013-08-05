@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<project name="Sitecore AutoBuild" basedir="." default="build">	
+   <target name="build">
+       <property name="scversion" value="6.5"/>
+       <property name="buildall" value="true" overwrite="true"/>
+       <property name="module" value="6.5.0-K2\Modules\Calendar" overwrite="true"/>
+       
+        <echo message="Build demo prototype."/>
+         
+         <foreach item="File" property="filename">
+         <in>
+            <items basedir="${temp.folder}/data/packages/">
+               <include name="*Prototype.xml"/>
+            </items>
+         </in>
+         <do>                               
+            <exec program="scbuild.exe" basedir="${temp.folder}/">
+               <arg value="-d:${package.temp.folder}" />
+               <arg value="-xml:${filename}" />
+               <arg value="-v:${module.version} rev. ${module.date}" />
+               <arg value="-n:Calendar Demo Prototype.zip" />
+            </exec>            
+         </do>
+      </foreach>
+      
+       <copy todir="${temp.folder}/temp" overwrite="true" flatten="false" includeemptydirs="true" verbose="true">
+         <fileset basedir="${package.temp.folder}">
+            <include name="Calendar Demo Prototype.zip"/>
+         </fileset>        
+      </copy>
+      
+   </target>      
+</project>

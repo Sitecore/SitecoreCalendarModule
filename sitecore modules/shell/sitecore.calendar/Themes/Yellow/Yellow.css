@@ -1,0 +1,108 @@
+﻿/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.textEvent
+{
+    color :#B4AE00
+}
+
+.eventWizardTabActive A,
+.eventToolbarTable,
+.daysNames,
+.viewModeLink
+{
+   color: #FFF400;
+}
+
+.eventWizardTab A,
+.eventWizardButton,
+.eventWizardButton A,
+.eventToolbarButton,
+.eventToolbarCancel,
+.event,
+.eventList,
+.event A,
+.eventWeek,
+.eventWeek A,
+.eventPhantom A,
+.eventPhantom,
+.daysNames,
+.viewModeLink,
+.dayTasksMenuItem,
+.dayTasksMenuItem A,
+.TabActive,
+.TabActive a,
+.navHeader,
+.navDayHeader,
+.navDaySelected a,
+.navOtherMonth A,
+.navNextPrev,
+.navNextPrev A,
+.navWeekdays,
+.firstHalf,
+.calendarsListHeader,
+.dayCellSelected, 
+.dayCellSelected A
+{
+   color: black;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Background Colors
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizardHeader,
+.eventWizardTab,
+.eventWizardTab A,
+.eventWizardBFrame,
+.wizardLink,
+.event,
+.eventList,
+.event A,
+.eventWeek,
+.eventWeek A,
+.eventPhantom A,
+.eventPhantom,
+.daysNames,
+.viewModeLink,
+.dayTasksMenuItem,
+.dayTasksMenuItem A,
+.frame,
+.TabActive,
+.TabActive a,
+.navHeader,
+.navDayHeader,
+.firstHalf,
+.secHalf,
+.calendarsListHeader
+{
+   background-color: #FFF400;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*
+
+         Borders
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.eventWizard,
+.navCalendar,
+.secHalf,
+.calendarsList,
+.quickSelect
+{
+   border-top: #FFF400 1px solid;
+}
+
+.eventWizard,
+.secHalf,
+.navCalendar
+{
+   border-right: #FFF400 1px solid;
+   border-left: #FFF400 1px solid;
+   border-bottom: #FFF400 1px solid;
+}

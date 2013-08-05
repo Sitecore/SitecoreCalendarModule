@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<control xmlns:def="Definition" xmlns="http://schemas.sitecore.net/Visual-Studio-Intellisense" xmlns:controls="http://www.sitecore.net/controls">
+  <Calendar.ConfigureControls>
+    
+    <Stylesheet Key="Calendar">
+      .scComboboxEdit
+      {
+        width : 382px;
+      }
+    </Stylesheet>
+    
+    <FormPage Icon="business/32x32/calendar.png" Header="Configure Calendar Controls" Text="The purpose of this dialog is to simply the process of adding calendar controls to the layout for an item." Background="#e9e9e9" Focus="btnOk">
+      <CodeBeside Type="Sitecore.Modules.EventCalendar.Forms.CalendarLayoutManager,Sitecore.Calendar"/>
+
+      <GridPanel ID="ManagerPanel"  Width="100%" Height="10%" Fixed="true" CellPadding="0" CellSpasing="0" Margin="0px 0px 0px 0px" Padding="0px 0px 0px 0px"  GridPanel.Valign="Top">
+
+        <GridPanel ID="TreeListPanel" Width="682px" Columns="1" GridPanel.Valign="Top" style="height:50px" Margin="10px 10px 0px 10px" Padding="0px 0px 0px 0px" Fixed="true" CellPadding="0" CellSpasing="0" >
+        </GridPanel>
+
+        <GridPanel Columns="4" Width="100%" Style="vertical-align:bottom" Border="0px" GridPanel.Valign="Top">
+          
+          <Literal ID="lblPlaceholder" Text="&lt;b&gt;Placeholder:&lt;/b&gt;" GridPanel.Width="17%" GridPanel.Style="padding:10px 10px 0px 10px"
+                   style="width:100%;height:22px;vertical-align:bottom;padding-top:7px;" />
+          <GridPanel ID="PlaceholderPanel" Columns="1" Style="vertical-align:bottom;padding-right:7px" Border="0px" GridPanel.Style="padding:10px 10px 0px 10px"
+                     GridPanel.Width="78%" GridPanel.ColSpan="3" Width="100%">
+          </GridPanel>
+          
+          <Literal ID="lblSettingsItem" Text="&lt;b&gt;Settings Item:&lt;/b&gt;" GridPanel.Width="17%" style="width:100%;" GridPanel.Style="padding:10px 10px 0px 10px"/>
+          <Border ID="SettingsItemBorder" GridPanel.Width="53%" style="height:100%;width:100%;display:inline;vertical-align:bottom;padding-bottom:1px" GridPanel.Style="padding:10px 0px 0px 10px">
+            <DataContext ID="SettingsItemDataContext" DataViewName="Master" Root="" ShowRoot="false" DefaultItem=""/>
+            <TreePicker ID="tpSettingsItem" DataContext="SettingsItemDataContext" SelectOnly="true" Width="100%" GridPanel.Width="100%"/>
+          </Border>
+          <Border align="left" GridPanel.ColSpan="2" GridPanel.Width="25%" GridPanel.Style="padding:10px 0px 0px 0px;" style="display:-moz-inline-box;width:100%;margin-left:4px">
+            <Button ID="btnEditSettingsItem" Header="Edit" />
+            <Button ID="btnNewSettingsItem" Header="New" OnClick="javascript:return scForm.invoke('calendar:newsettingsitem')"  />
+          </Border>
+
+          <Literal ID="lblModuleSettings" Text="&lt;b&gt;Module Settings:&lt;/b&gt;" GridPanel.Width="17%" style="width:100%;" GridPanel.Style="padding:10px 10px 0px 10px"/>
+          <Border ID="ModuleSettingsBorder" GridPanel.Width="53%" style="height:100%;width:100%;display:inline;vertical-align:bottom;padding-bottom:1px" GridPanel.Style="padding:10px 0px 0px 10px">
+            <DataContext ID="ModuleSettingsDataContext" DataViewName="Master" DefaultItem="" Root="" Filter="Contains('{3F74EFC7-C26B-4A0F-B365-07943F0DF06C},{A87A00B1-E6DB-45AB-8B54-636FEC3B5523}', @@templateid)"/>
+            <TreePicker ID="tpModuleSettings" DataContext="ModuleSettingsDataContext" SelectOnly="true" Value=""  Width="100%" GridPanel.Width="100%"/>
+          </Border>
+          <Border align="left" GridPanel.ColSpan="2" GridPanel.Width="25%" GridPanel.Style="padding:10px 0px 0px 0px;" style=" display:-moz-inline-box;width:100%;margin-left:4px">
+            <Button ID="btnEditModuleSettings" Header="Edit" />
+            <Button ID="btnNewModuleSettings" Header="New" OnClick="javascript:return scForm.invoke('calendar:newmodulesettingsitem')" />
+          </Border>
+        </GridPanel>
+      </GridPanel>
+
+      <GridPanel Width="95%" Fixed="true" CellPadding="0" CellSpasing="0" Margin="16px 16px 0px 16px" Padding="0px 0px 0px 0px"  GridPanel.Valign="Top">
+        <Border align="center" style="display:inline;width:100%;" GridPanel.Align="Center">
+          <Button ID="btnOk" Header="OK"   />
+          <Button ID="btnCancel" Header="Cancel" />
+        </Border>
+      </GridPanel>
+      <script type="text/JavaScript" language="javascript">
+        document.getElementById('btnOk').focus();
+        var items = document.getElementById('ManagerPanel_TreeList_selected');
+        items.style.width=items.parentNode.clientWidth+'px';
+      </script>
+    </FormPage>
+  </Calendar.ConfigureControls>
+</control>
+

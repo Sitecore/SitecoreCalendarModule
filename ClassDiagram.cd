@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="&quot;Module settings&quot; has some links to items with the settings for  each of these classes:&#xD;&#xA;* MonthViewSettings&#xD;&#xA;* WeekViewSettings&#xD;&#xA;* DayViewSettings&#xD;&#xA;* AgendaViewSettings&#xD;&#xA;* DateSelectorSettings&#xD;&#xA;* MiniCalendarSettings&#xD;&#xA;* CalendarSelectorSettings&#xD;&#xA;* ProgressBarSettings&#xD;&#xA;&#xD;&#xA;&#xD;&#xA;The item with default settings is a item on which exist the link in the ModuleSettings item. The rest are items with alternative/custom setiings&#xD;&#xA;&#xD;&#xA;The default ModuleSettings item is a item by the path: sitecore\system\Calendar">
+    <Position X="3.948" Y="4.208" Height="5.385" Width="2.96" />
+  </Comment>
+  <Comment CommentText="The one Calendar:WebControl has only one of these controls: &#xD;&#xA;* MonthView&#xD;&#xA;* WeekView&#xD;&#xA;* DayView&#xD;&#xA;* AgendaView&#xD;&#xA;&#xD;&#xA;On the page users put the &quot;calendar control&quot; for which has been selected one of these View modes.&#xD;&#xA;&#xD;&#xA;The users can switch only between Month/Week/Day View modes.&#xD;&#xA;&#xD;&#xA;">
+    <Position X="9.792" Y="4.187" Height="2.042" Width="5.7" />
+  </Comment>
+  <Comment CommentText="The View class takes all settings from the corresponding setting class. The setting class takes from a item in  sitecores content. &#xD;&#xA;&#xD;&#xA;If ViewSettingsPath property is present in the control and it doesn't coincide with Default Settings item all settings will be read from the item by ViewSettingsPath in the content">
+    <Position X="7.849" Y="0.5" Height="2.729" Width="1.815" />
+  </Comment>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.Calendar" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="15.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Calendar.cs</FileName>
+      <HashCode>AAAAAYAADAAA0AAAACEAAYgCEQIAgiQAARAEAABACAQ=</HashCode>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.BasePicker" Collapsed="true">
+    <Position X="10.25" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\BasePicker.cs</FileName>
+      <HashCode>AAAAAAAAAIAAAEAAAAAAAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.DateSelector" Collapsed="true">
+    <Position X="8.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\DateSelector.cs</FileName>
+      <HashCode>QIgJAAAEBASACAAAAgFAAAAkAwoUgCVgARAAAIAiAEQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.MiniCalendar" Collapsed="true">
+    <Position X="11.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\DatePickers\MiniCalendar.cs</FileName>
+      <HashCode>AAAAAAAEBCAAAAAQBADAIAAAAAAAiEUAABAAACACgAY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.AgendaView" Collapsed="true">
+    <Position X="9" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\AgendaView.cs</FileName>
+      <HashCode>EQAAAQAAAAGAAAAQIAAAAAAAAQCggAYQABAAJBAgAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.UI.BaseView" ManuallyRouted="true">
+      <Path>
+        <Point X="13.75" Y="1.38" />
+        <Point X="13.75" Y="1.572" />
+        <Point X="9.75" Y="1.572" />
+        <Point X="9.75" Y="6.25" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.BaseView" Collapsed="true">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\BaseView.cs</FileName>
+      <HashCode>AAADQYAAAAAJQAAAYgCAAQATAQBAAC4ACBAIBAYiCgI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+      <Compartment Name="Methods" Collapsed="true" />
+    </Compartments>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.DayView" Collapsed="true">
+    <Position X="13.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\DayView.cs</FileName>
+      <HashCode>AAAAQRAAAAAAAAAAIAAAAQCAAAKggA4IABAgBAAgAAI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.UI.ExtendBaseView" ManuallyRouted="true">
+      <Path>
+        <Point X="13.75" Y="2.38" />
+        <Point X="13.75" Y="2.615" />
+        <Point X="14.25" Y="2.615" />
+        <Point X="14.25" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.MonthView" Collapsed="true">
+    <Position X="10" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\MonthView.cs</FileName>
+      <HashCode>AUUAAQABIICIAIAAIACAAQCgAACgoAYAAJAIJACgAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.UI.ExtendBaseView" ManuallyRouted="true">
+      <Path>
+        <Point X="13.75" Y="2.38" />
+        <Point X="13.75" Y="2.615" />
+        <Point X="10.75" Y="2.615" />
+        <Point X="10.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.ExtendBaseView" Collapsed="true">
+    <Position X="13" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\TimeSpanView.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAACAAAIAQAAAAAAAABQ=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.WeekView" Collapsed="true">
+    <Position X="11.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\Views\WeekView.cs</FileName>
+      <HashCode>AAAAARAIAAAAAAAAIAAAAQCAAAKggA4IABAgBAAgAAI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.UI.ExtendBaseView" ManuallyRouted="true">
+      <Path>
+        <Point X="13.75" Y="2.38" />
+        <Point X="13.75" Y="2.615" />
+        <Point X="12.5" Y="2.615" />
+        <Point X="12.5" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.AgendaViewSettings" Collapsed="true">
+    <Position X="7" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\AgendaViewSettings.cs</FileName>
+      <HashCode>AQCAAAAAAoGAoEBQIgEACAAAAACgJAEQACACIUAUIIE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.DayViewSettings" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\DayViewSettings.cs</FileName>
+      <HashCode>AAAEABhAogAkAAAAIAAAAQAAAAIAAAEIAAAGBAAAAII=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.Utils.ExtendStandartViewSettings" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="2.13" />
+        <Point X="5.75" Y="2.365" />
+        <Point X="7.75" Y="2.365" />
+        <Point X="7.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.ModuleSettings" Collapsed="true">
+    <Position X="2.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\ModuleSettings.cs</FileName>
+      <HashCode>IDAgAAgAUAgAAAAEIiAARIAAhAEAAQCQAoYADAIQAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.MonthViewSettings" Collapsed="true">
+    <Position X="3.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\MonthViewSettings.cs</FileName>
+      <HashCode>AUCAAAABAoCAKIAAIACAAAIgAAAgNAUBAAACIQAEEAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.Utils.ExtendStandartViewSettings" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="2.13" />
+        <Point X="5.75" Y="2.385" />
+        <Point X="4" Y="2.385" />
+        <Point X="4" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.StandardViewSettings" Collapsed="true">
+    <Position X="5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\StandardViewSettings.cs</FileName>
+      <HashCode>AAABAAAAAAAAlABCAgEAAAAGAABAQgABAAACAAIgIgE=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.ExtendStandartViewSettings" Collapsed="true">
+    <Position X="5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\ExtendStandartViewSettings.cs</FileName>
+      <HashCode>AAAAAQAAAAAAAAAAAABAAAIAAAAAAAIAAIECAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.WeekViewSettings" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\WeekViewSettings.cs</FileName>
+      <HashCode>AAAEABAAggAAAAAAIAAAAQAAAAIAAAEIAAAGBAAAAAI=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <InheritanceLine Type="Sitecore.Modules.EventCalendar.Utils.ExtendStandartViewSettings" ManuallyRouted="true">
+      <Path>
+        <Point X="5.75" Y="2.13" />
+        <Point X="5.75" Y="2.375" />
+        <Point X="5.75" Y="2.375" />
+        <Point X="5.75" Y="3.5" />
+      </Path>
+    </InheritanceLine>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.CalendarSelectorSettings" Collapsed="true">
+    <Position X="7" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\CalendarSelectorSettings.cs</FileName>
+      <HashCode>AAAIAAAAAoAAAEBAIgEAAAAEAAgEAAEAEAACAAAQIEE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.DateSelectorSettings" Collapsed="true">
+    <Position X="7" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\DateSelectorSettings.cs</FileName>
+      <HashCode>AAAIAAAAAoAAAEAAIAAAAAAEAggEBAFAEAACAAAQAEE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.sitecore_modules.shell.sitecore.calendar.Logic.Utils.MiniCalendarSettings" Collapsed="true">
+    <Position X="7" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\MiniCalendarSettings.cs</FileName>
+      <HashCode>AAAAAAAAAqAAAEBQIgEAAAAAAAAAAAEAAABCAAAwoAE=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.Utils.ProgressBarSettings" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\Utils\ProgressBarSettings.cs</FileName>
+      <HashCode>AEAAAAAAAAAAAAAAAAAAAAAAAAAAQBAIAAACCABAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.ProgressBar" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\CalendarProgressBar.cs</FileName>
+      <HashCode>AAAAAAAABAAAAAAAAAIAAAAAUACAgBQIAAAACAAAAAQ=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sitecore.Modules.EventCalendar.UI.CalendarSelector" Collapsed="true">
+    <Position X="8.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <FileName>sitecore modules\shell\sitecore.calendar\Logic\UI\CalendarSelector.cs</FileName>
+      <HashCode>AAAICAAEBIAAAEACAARACAAEIAgAggQAADAEAAACAEY=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

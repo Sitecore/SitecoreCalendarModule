@@ -1,0 +1,346 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DemoPackageName" xml:space="preserve">
+    <value>Calendar Demo Prototype.zip</value>
+  </data>
+  <data name="DveloperTitle0" xml:space="preserve">
+    <value>Developer Training</value>
+  </data>
+  <data name="DveloperTitle1" xml:space="preserve">
+    <value>Advanced Developer</value>
+  </data>
+  <data name="EndUserTitle0" xml:space="preserve">
+    <value>College Student Seminar</value>
+  </data>
+  <data name="EndUserTitle1" xml:space="preserve">
+    <value>End User Training</value>
+  </data>
+  <data name="EndUserTitle2" xml:space="preserve">
+    <value>Administrator Training</value>
+  </data>
+  <data name="ENTER_ITEM_NAME" xml:space="preserve">
+    <value>Please enter the name of the new item:</value>
+  </data>
+  <data name="INSTALL_CALENDAR_DEMO_ITEMS" xml:space="preserve">
+    <value>Would you like to install the Calendar demonstration items?</value>
+  </data>
+  <data name="Location0" xml:space="preserve">
+    <value>Training Room 100</value>
+  </data>
+  <data name="Location1" xml:space="preserve">
+    <value>Training Room 200</value>
+  </data>
+  <data name="Location2" xml:space="preserve">
+    <value>Training Room 101</value>
+  </data>
+  <data name="Location3" xml:space="preserve">
+    <value>Training Room 205</value>
+  </data>
+  <data name="Location4" xml:space="preserve">
+    <value>Training Room 110</value>
+  </data>
+  <data name="Lunch0" xml:space="preserve">
+    <value>Brown Bag Lunch</value>
+  </data>
+  <data name="Lunch1" xml:space="preserve">
+    <value>Official lunch</value>
+  </data>
+  <data name="Lunch2" xml:space="preserve">
+    <value>Power lunch</value>
+  </data>
+  <data name="LunchDescription0" xml:space="preserve">
+    <value>We decided it was about time for a roadmap meeting so we came up with the idea of the Brown Bag Lunch. Bring your goodies in a brown bag (we have some downstairs in the kitchen for those that don't know what they are) and we will have an open meeting to
+discuss our future plans.  Partners and other interested parties are welcome.</value>
+  </data>
+  <data name="LunchDescription1" xml:space="preserve">
+    <value>Let's do lunch! It is time for a more official meeting to discuss a few new strategies. So all employees are formally invited to attend the Official Lunch at the best restaurant in town (you all know it!) to give your personal input. It is all paid for so just bring a notebook and pen, and of course, yourself.</value>
+  </data>
+  <data name="LunchDescription2" xml:space="preserve">
+    <value>You are invited to join us for a quick Power Lunch.  This time we'll demonstrate the features of the newest release of our software.  Stop by and find out how you can save time and impress your boss!</value>
+  </data>
+  <data name="LunchEndTime0" xml:space="preserve">
+    <value>13:30</value>
+  </data>
+  <data name="LunchEndTime1" xml:space="preserve">
+    <value>13:30</value>
+  </data>
+  <data name="LunchEndTime2" xml:space="preserve">
+    <value>13:00</value>
+  </data>
+  <data name="LunchLocation0" xml:space="preserve">
+    <value>The Canteen</value>
+  </data>
+  <data name="LunchLocation1" xml:space="preserve">
+    <value>The Restaurant</value>
+  </data>
+  <data name="LunchLocation2" xml:space="preserve">
+    <value>The Canteen</value>
+  </data>
+  <data name="LunchStartDate0" xml:space="preserve">
+    <value>Thursday|2</value>
+  </data>
+  <data name="LunchStartDate1" xml:space="preserve">
+    <value>Thursday|3</value>
+  </data>
+  <data name="LunchStartDate2" xml:space="preserve">
+    <value>Thursday|1</value>
+  </data>
+  <data name="LunchStartTime0" xml:space="preserve">
+    <value>12:00</value>
+  </data>
+  <data name="LunchStartTime1" xml:space="preserve">
+    <value>12:00</value>
+  </data>
+  <data name="LunchStartTime2" xml:space="preserve">
+    <value>12:00</value>
+  </data>
+  <data name="NOT_VALIDE_NAME" xml:space="preserve">
+    <value>'$Input' is not a valid name.</value>
+  </data>
+  <data name="PARENT_NOT_FOUND" xml:space="preserve">
+    <value>Parent item not found.</value>
+  </data>
+  <data name="Party0" xml:space="preserve">
+    <value>Theater Visit</value>
+  </data>
+  <data name="Party1" xml:space="preserve">
+    <value>Football Fun Day</value>
+  </data>
+  <data name="Party2" xml:space="preserve">
+    <value>After Football Dinner &amp; Drinks</value>
+  </data>
+  <data name="Party3" xml:space="preserve">
+    <value>Office Party</value>
+  </data>
+  <data name="Party4" xml:space="preserve">
+    <value>Birthday Party</value>
+  </data>
+  <data name="Party5" xml:space="preserve">
+    <value>Exercise Walk</value>
+  </data>
+  <data name="PartyDescription0" xml:space="preserve">
+    <value>Everyone is talking about the big show! Come with us to the local theatre and watch a great comedy with us. We got a great group rate, so contact Sally if you're interested.  We've heard the show is funny and suitable for all ages, plus we will be going to the pub afterwards.</value>
+  </data>
+  <data name="PartyDescription1" xml:space="preserve">
+    <value>A traditional event where we meet up to play football. We usually play in the park by town center and there is always room for more, so bring your friends and have let's have fun!</value>
+  </data>
+  <data name="PartyDescription2" xml:space="preserve">
+    <value>After a day of football, what could be better than meeting up for some burgers and drinks?  In fact, that sounds good even if you didn't spend the day playing football!  Join us either way.</value>
+  </data>
+  <data name="PartyDescription3" xml:space="preserve">
+    <value>This event is a must for all employees and open to all our partners!  If you're a partner, this is a great chance for your to meet in person the people you're only spoken with over the phone or via e-mail.</value>
+  </data>
+  <data name="PartyDescription4" xml:space="preserve">
+    <value>Hey guys, I turn 25 on Wednesday so cake and beer are on me!</value>
+  </data>
+  <data name="PartyDescription5" xml:space="preserve">
+    <value>Hey, feeling a little overweight? Putting on too many kilograms sitting at the desk all day? Then join us for a great hike in the mountains. It's sure to trim you down and get you feeling healthy again!</value>
+  </data>
+  <data name="PartyEndTime0" xml:space="preserve">
+    <value>23:30</value>
+  </data>
+  <data name="PartyEndTime1" xml:space="preserve">
+    <value>17:00</value>
+  </data>
+  <data name="PartyEndTime2" xml:space="preserve">
+    <value>22:00</value>
+  </data>
+  <data name="PartyEndTime3" xml:space="preserve">
+    <value>22:00</value>
+  </data>
+  <data name="PartyEndTime4" xml:space="preserve">
+    <value>17:00</value>
+  </data>
+  <data name="PartyEndTime5" xml:space="preserve">
+    <value>22:00</value>
+  </data>
+  <data name="PartyLocation0" xml:space="preserve">
+    <value>Center Theater</value>
+  </data>
+  <data name="PartyLocation1" xml:space="preserve">
+    <value>The Park</value>
+  </data>
+  <data name="PartyLocation2" xml:space="preserve">
+    <value>The Pub</value>
+  </data>
+  <data name="PartyLocation3" xml:space="preserve">
+    <value>The Canteen at our Offices</value>
+  </data>
+  <data name="PartyLocation4" xml:space="preserve">
+    <value>The Canteen</value>
+  </data>
+  <data name="PartyLocation5" xml:space="preserve">
+    <value>Our office parking lot</value>
+  </data>
+  <data name="PartyStartDate0" xml:space="preserve">
+    <value>Tuesday|1</value>
+  </data>
+  <data name="PartyStartDate1" xml:space="preserve">
+    <value>Saturday|1</value>
+  </data>
+  <data name="PartyStartDate2" xml:space="preserve">
+    <value>Saturday|1</value>
+  </data>
+  <data name="PartyStartDate3" xml:space="preserve">
+    <value>Friday|2</value>
+  </data>
+  <data name="PartyStartDate4" xml:space="preserve">
+    <value>Wednesday|2</value>
+  </data>
+  <data name="PartyStartDate5" xml:space="preserve">
+    <value>Sunday|2</value>
+  </data>
+  <data name="PartyStartTime0" xml:space="preserve">
+    <value>19:00</value>
+  </data>
+  <data name="PartyStartTime1" xml:space="preserve">
+    <value>10:00</value>
+  </data>
+  <data name="PartyStartTime2" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="PartyStartTime3" xml:space="preserve">
+    <value>18:00</value>
+  </data>
+  <data name="PartyStartTime4" xml:space="preserve">
+    <value>16:00</value>
+  </data>
+  <data name="PartyStartTime5" xml:space="preserve">
+    <value>08:00</value>
+  </data>
+  <data name="ITEM_HAS_NO_LAYOUT" xml:space="preserve">
+    <value>Item has no layout.</value>
+  </data>
+  <data name="REMOVE_ONE_HTMLHEADER" xml:space="preserve">
+    <value>You have removed all calendar controls except the HTMLHeader. This control is not required unless you select one or more additional controls.&lt;br/&gt;&lt;br/&gt;Do you want to remove this control as well?</value>
+  </data>
+  <data name="REQUIRES_HTMLHEADER" xml:space="preserve">
+    <value>Calendar controls require specific statements in the HTML header. The HTMLHeader control generates these statements. Please select this control and specify a placeholder key that corresponds to a placeholder in the HTML header this item's associated layout.</value>
+  </data>
+  <data name="END_AFTER_START" xml:space="preserve">
+    <value>End Time must occur after Start Time!</value>
+  </data>
+  <data name="COULD_NOT_FIND_EVENT" xml:space="preserve">
+    <value>Could not find Event node with ID {0}</value>
+  </data>
+  <data name="UNSUPPORT_TEMPLATE" xml:space="preserve">
+    <value>The event item \"{0}\" is based on the template \"{1}\" and not \"{2}\" as expected</value>
+  </data>
+</root>

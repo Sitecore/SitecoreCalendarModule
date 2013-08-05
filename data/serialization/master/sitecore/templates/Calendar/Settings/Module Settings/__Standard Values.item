@@ -1,0 +1,196 @@
+----item----
+version: 1
+id: {FBBA2F4A-D1DC-4E02-AD6C-683A46E253ED}
+database: master
+path: /sitecore/templates/Calendar/Settings/Module Settings/__Standard Values
+parent: {3F74EFC7-C26B-4A0F-B365-07943F0DF06C}
+name: __Standard Values
+master: {00000000-0000-0000-0000-000000000000}
+template: {3F74EFC7-C26B-4A0F-B365-07943F0DF06C}
+templatekey: Module Settings
+
+----field----
+field: {DAF5C14D-B301-4DB9-BEB1-81618F490880}
+name: Event Lists Folder
+key: event lists folder
+content-length: 38
+
+{C332D9C3-B3D8-4D30-A174-C706B3346407}
+----field----
+field: {116F0F45-66FB-4522-AC04-ED297DCD61D3}
+name: Schedules Folder
+key: schedules folder
+content-length: 38
+
+{57A3F3F0-6277-405B-AAC0-5C957442D1AF}
+----field----
+field: {EFF98F98-F536-49AB-B682-F049F15ACF7A}
+name: Theme
+key: theme
+content-length: 4
+
+Blue
+----field----
+field: {FDD24E4D-B04E-4D89-8C90-CCF098F6235A}
+name: Agenda View
+key: agenda view
+content-length: 38
+
+{66203A50-4205-421F-AF24-E6D9B46F79B7}
+----field----
+field: {CC29F8E7-A553-4C67-9EF8-A3C24C87AA01}
+name: Calendar Selector
+key: calendar selector
+content-length: 38
+
+{7814F570-9B2C-4711-B05E-A4DE0223C0D9}
+----field----
+field: {BA4E7C57-8F68-4E29-98E0-B1B153CDA6E6}
+name: Date Selector
+key: date selector
+content-length: 38
+
+{DCB06C70-3509-423B-B091-CD718CB6A52E}
+----field----
+field: {545902A5-D1A6-48F4-B7B0-7A72FE7142FF}
+name: Mini Calendar
+key: mini calendar
+content-length: 38
+
+{1135EC32-8241-45C5-8147-4D781CB670FE}
+----field----
+field: {D4CBED3E-17C2-475C-AE89-978D439D7594}
+name: Day View
+key: day view
+content-length: 38
+
+{EC8797A8-9236-4E66-A119-F190BF7FA259}
+----field----
+field: {3C972D4E-B3AF-43BA-A93F-96ED4D0A6BEA}
+name: Week View
+key: week view
+content-length: 38
+
+{4891A98B-AD78-4076-88B4-651C81BFB262}
+----field----
+field: {C3CC4A82-B212-4513-9B51-41F208FE0DF6}
+name: Month View
+key: month view
+content-length: 38
+
+{B0749CA6-3B88-45B8-9F83-99BCDC6AFDC4}
+----field----
+field: {89838690-9A46-43D7-A257-09E4A6BBFB77}
+name: Progress Bar
+key: progress bar
+content-length: 38
+
+{D8195C52-2E58-4B60-BC01-696FA746B632}
+----field----
+field: {BA3F86A2-4A1C-4D78-B63D-91C2779C1B5E}
+name: __Sortorder
+key: __sortorder
+content-length: 0
+
+
+----field----
+field: {A4F985D9-98B3-4B52-AAAF-4344F6E747C6}
+name: __Workflow
+key: __workflow
+content-length: 0
+
+
+----version----
+language: 
+version: 1
+revision: 681a883b-a90c-4a50-9c67-b6c081d58572
+
+----field----
+field: {52807595-0F8F-4B20-8D2A-CB71D28C6103}
+name: __Owner
+key: __owner
+content-length: 14
+
+sitecore\admin
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20080611T111652
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+681a883b-a90c-4a50-9c67-b6c081d58572
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 34
+
+20080611T111652:633487798121562500
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\admin
+----version----
+language: en
+version: 1
+revision: 67435100-603c-4923-af4f-26d7e7506113
+
+----field----
+field: {25BED78C-4957-4165-998A-CA1B52F67497}
+name: __Created
+key: __created
+content-length: 15
+
+20070727T085329
+----field----
+field: {5DD74568-4D4B-44C1-B513-0AF5F4CDA34F}
+name: __Created by
+key: __created by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {8CDC337E-A112-42FB-BBB4-4143751E123F}
+name: __Revision
+key: __revision
+content-length: 36
+
+67435100-603c-4923-af4f-26d7e7506113
+----field----
+field: {D9CF14B1-FA16-4BA6-9288-E8A174D4D522}
+name: __Updated
+key: __updated
+content-length: 15
+
+20071114T102133
+----field----
+field: {BADD9CF9-53E0-4D0C-BCC0-2D784C282F6A}
+name: __Updated by
+key: __updated by
+content-length: 14
+
+sitecore\Admin
+----field----
+field: {3E431DE1-525E-47A3-B6B0-1CCBEC3A8C98}
+name: __Workflow state
+key: __workflow state
+content-length: 0
+
+
