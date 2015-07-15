@@ -73,7 +73,7 @@ namespace Sitecore.Modules.EventCalendar.Objects
                ImageField edit_icon_fld = _eventListItem.Fields[EventEditIconField];
                if (edit_icon_fld != null)
                {
-                  _eventEditIconPath = StaticSettings.MediaPrefix + edit_icon_fld.MediaPath + StaticSettings.MediaSuffix;
+                  _eventEditIconPath = StaticSettings.MediaPrefix + edit_icon_fld.MediaItem.Paths.MediaPath + StaticSettings.MediaSuffix;
                }
             }
 

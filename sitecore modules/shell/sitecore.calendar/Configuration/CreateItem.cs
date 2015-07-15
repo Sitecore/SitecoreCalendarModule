@@ -1,5 +1,3 @@
-using System;
-
 using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -9,6 +7,7 @@ using Sitecore.Shell.Framework;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Text;
 using Sitecore.Web.UI.Sheer;
+using System;
 
 namespace Sitecore.EventCalendar.Configure
 {
@@ -39,7 +38,7 @@ namespace Sitecore.EventCalendar.Configure
                   {
                      if (strMaster.Length > 0)
                      {
-                        BranchItem branch = database.Masters[strMaster];
+						BranchItem branch = database.Branches[strMaster];
                         PostStep(Context.Workflow.AddItem(args.Result, branch, parent));
                      }
                      else
@@ -67,7 +66,7 @@ namespace Sitecore.EventCalendar.Configure
                   new string[] {args.Parameters["prompt"], ResourceManager.Localize("ENTER_ITEM_NAME")});
             if (strMaster.Length > 0)
             {
-               defaultValue = database.Masters[strMaster].Name;
+                    defaultValue = database.Branches[strMaster].Name;
             }
             else
             {

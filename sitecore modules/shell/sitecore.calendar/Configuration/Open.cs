@@ -1,5 +1,3 @@
-using System.Collections.Specialized;
-
 using Sitecore.Configuration;
 using Sitecore.Data;
 using Sitecore.Data.Items;
@@ -9,6 +7,7 @@ using Sitecore.Shell.Framework;
 using Sitecore.Shell.Framework.Commands;
 using Sitecore.Text;
 using Sitecore.Web.UI.Sheer;
+using System.Collections.Specialized;
 
 namespace Sitecore.EventCalendar.Configure
 {

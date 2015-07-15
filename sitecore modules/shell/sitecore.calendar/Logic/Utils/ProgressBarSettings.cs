@@ -28,7 +28,7 @@ namespace Sitecore.Modules.EventCalendar.Utils
          {
             if (_image != null)
             {
-               return StaticSettings.MediaPrefix + _image.MediaPath + StaticSettings.MediaSuffix;
+               return StaticSettings.MediaPrefix + _image.MediaItem.Paths.MediaPath + StaticSettings.MediaSuffix;
             }
             return "";
          }

@@ -152,10 +152,10 @@ namespace Sitecore.Modules.EventCalendar.Utils
          }
 
          ImageField addIcon = settings_item.Fields[AddEventIconField];
-         AddEventIcon = "~/media" + addIcon.MediaPath + ".ashx";
+         AddEventIcon = "~/media" + addIcon.MediaItem.Paths.MediaPath + ".ashx";
 
          ImageField altIcon = settings_item.Fields[AltAddEventIconField];
-         AltAddEventIcon = "~/media" + altIcon.MediaPath + ".ashx";
+         AltAddEventIcon = "~/media" + altIcon.MediaItem.Paths.MediaPath + ".ashx";
 
          string limit = settings_item[EventLimitField];
          if (limit.Length > 0)

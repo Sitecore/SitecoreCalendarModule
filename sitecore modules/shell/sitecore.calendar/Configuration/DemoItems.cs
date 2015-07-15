@@ -1,5 +1,3 @@
-using System;
-
 using Sitecore.Data;
 using Sitecore.Data.Items;
 using Sitecore.EventCalendar.Core.Configuration;
@@ -9,6 +7,7 @@ using Sitecore.Modules.EventCalendar.Logic.Utils;
 using Sitecore.Modules.EventCalendar.Objects;
 using Sitecore.Modules.EventCalendar.Utils;
 using Sitecore.SecurityModel;
+using System;
 
 namespace Sitecore.Modules.EventCalendar.Configuration
 {
@@ -183,11 +182,15 @@ namespace Sitecore.Modules.EventCalendar.Configuration
          DateTime start = FindNextDayOfWeek(DateTime.Today, DeveloperDay);
 
          var evt = new Event
-                      {
-                         Description = string.Empty, StartDate = Utilities.NormalizeDate(start),
-                         EndDate = Utilities.NormalizeDate(start.AddMonths(2)), StartTime = "09:00",
-                         EndTime = "17:00", Location = LocationDefault, Title = DeveloperDefaultTitle
-                      };
+         	{
+                Description = string.Empty,
+                StartDate = Utilities.NormalizeDate(start),
+                EndDate = Utilities.NormalizeDate(start.AddMonths(2)),
+                StartTime = "09:00",
+                EndTime = "17:00",
+                Location = LocationDefault,
+                Title = DeveloperDefaultTitle
+            };
 
          var scheduler = new Schedule
                             {
@@ -213,12 +216,15 @@ namespace Sitecore.Modules.EventCalendar.Configuration
          DateTime start = FindNextDayOfWeek(DateTime.Today, DeveloperDay);
 
          var evt = new Event
-                      {
-                         Description = string.Empty, StartDate = Utilities.NormalizeDate(start),
-                         EndDate = Utilities.NormalizeDate(start.AddMonths(2)), StartTime = "09:00",
-                         EndTime = "17:00", Location = EndUserLocationDefault,
+            {
+                Description = string.Empty,
+                StartDate = Utilities.NormalizeDate(start),
+                EndDate = Utilities.NormalizeDate(start.AddMonths(2)),
+                StartTime = "09:00",
+                EndTime = "17:00",
+                Location = EndUserLocationDefault,
                          Title = EndUserDefaultTitle
-                      };
+            };
 
          var scheduler = new Schedule
                             {

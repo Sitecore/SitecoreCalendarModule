@@ -1018,7 +1018,7 @@ namespace Sitecore.Modules.EventCalendar.Forms
                   {
                      if (strMaster.Length > 0)
                      {
-                        BranchItem branch = database.Masters[strMaster];
+                        BranchItem branch = database.Branches[strMaster];
                         PostStep(Context.Workflow.AddItem(args.Result, branch, parent));
                      }
                      else
@@ -1046,7 +1046,7 @@ namespace Sitecore.Modules.EventCalendar.Forms
                   new string[] { args.Parameters["prompt"], ResourceManager.Localize("ENTER_ITEM_NAME") });
             if (strMaster.Length > 0)
             {
-               defaultValue = database.Masters[strMaster].Name;
+               defaultValue = database.Branches[strMaster].Name;
             }
             else
             {

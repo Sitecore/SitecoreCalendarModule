@@ -1,7 +1,6 @@
-using System.Reflection;
-
 using Sitecore.Globalization;
 using Sitecore.Modules.EventCalendar.Utils;
+using System.Reflection;
 
 namespace Sitecore.EventCalendar.Core.Configuration
 {
